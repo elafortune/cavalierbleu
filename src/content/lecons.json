@@ -1,0 +1,2813 @@
+[
+ {
+  "slug": "pion-isole",
+  "title": "Pion isolé",
+  "cover": "/lecons/cover-101.jpg",
+  "pages": [
+   {
+    "blocks": [
+     {
+      "t": "img",
+      "src": "/lecons/00101.gif"
+     },
+     {
+      "t": "p",
+      "x": "La structure de pions caractérisée avec un pion isolé au centre est un thème bien connu dans la littérature des Echecs. Pourquoi la connaissance de ce type de position est-elle tellement importante?"
+     },
+     {
+      "t": "p",
+      "x": "Deux raisons principales:"
+     },
+     {
+      "t": "p",
+      "x": "1) Ce type de position, très fréquent dans la pratique en compétition, peut venir dans des formes variées, d'ouvertures différentes. On le trouve notamment dans:"
+     },
+     {
+      "t": "p",
+      "x": "- Le Gambit de la Dame accepté:"
+     },
+     {
+      "t": "p",
+      "x": "1.d4 d5 2.c4 dc4 3.Cf3 Cf6 4.e3 e6 5.Fc4 c5 6.0-0 Cc6 7.De2 cd4 8.Td1 Fe7 9.ed4"
+     },
+     {
+      "t": "p",
+      "x": "- La défense Tarrasch:"
+     },
+     {
+      "t": "p",
+      "x": "1.d4 d5 2.c4 e6 3.Cc3 c5 4-ed5 ed5 5.Cf3 Cc6 6.g3 Cf6 7.Fg2 Fe7 8.0-0 0-0 9.dc5 Fc5"
+     },
+     {
+      "t": "p",
+      "x": "- La défense Tarrasch améliorée:"
+     },
+     {
+      "t": "p",
+      "x": "1.d4 d5 2.c4 e6 3.Cc3 Cf6 4.Cf3 c5 5.cd5 Cd5 6.e3 Cc6 7.Fd3 ed4 8.ed4"
+     },
+     {
+      "t": "p",
+      "x": "- La défense Nimzovitch:"
+     },
+     {
+      "t": "p",
+      "x": "1.d4 Cf6 2.c4 e6 3.Cc3 Fb4 4.e3 00 5.Fd3 d5 6.Cf3 c5 7.00 8.a3 cd4 9.ed4 dc4 l0. Fc4"
+     },
+     {
+      "t": "p",
+      "x": "- La défense Française:"
+     },
+     {
+      "t": "p",
+      "x": "1.e4 e6 2.d4 d5 3.Cd2 c5 4. ed5 ed5 5.Fb5 Cc6 6.Cgf3 Fd6 7.dc5 Fc5"
+     },
+     {
+      "t": "p",
+      "x": "- La défense Sicilienne:"
+     },
+     {
+      "t": "p",
+      "x": "1.e4 c5 2.c3 d5 3.ed5 Dd5 4.d4 e6 5.Cf3 Cf6 6.Fd3 Fe7 7.0-0 0-0 8.De2 cd4 9.cd4"
+     },
+     {
+      "t": "p",
+      "x": "- La partie Italienne:"
+     },
+     {
+      "t": "p",
+      "x": "1.e4 e5 2.Cf3 Cc6 3.Fc4 Fc5 4.c3 Cf6 5.d4 ed4 6.cd4 Fb4 7.Fd2 Fd2 8.Cbd2 d5 9.ed5 Cd5"
+     }
+    ]
+   },
+   {
+    "blocks": [
+     {
+      "t": "img",
+      "src": "/lecons/00102.gif"
+     },
+     {
+      "t": "p",
+      "x": "2) Le jugement de ce type de position est de nouveau valorisé. Dans le passé, les grands joueurs de défense avaient trouvé de bonnes méthodes de jeu contre le pion isolé et avaient ainsi commencé à le considérer comme une faiblesse, oubliant presque ses côtés forts, sa force dynamique. Un pion isolé peut devenir certes une faiblesse, mais seulement sous certaines conditions : généralement quand il peut être bloqué et attaqué. Dans la pratique c'est plus facile à dire qu'à faire!"
+     },
+     {
+      "t": "p",
+      "x": "Ses avantages : le contrôle d'importantes cases centrales, la plus grande mobilité des pièces et quelques plans avec de bonnes perspectives."
+     },
+     {
+      "t": "p",
+      "x": "Deux de ces plans méritent l'analyse : l'attaque sur l'aile roi et percée au centre, étudiée ici. Voyons la position avec le pion blanc en d4 et le pion noir en e6. Structure caractéristique du Gambit de la Dame accepté ou de la défense Caro-Kann, Variante Panov. N'oublions pas que la compréhension acquise va nous être fort utile dans toutes les positions similaires."
+     },
+     {
+      "t": "p",
+      "x": "L'activité des pièces blanches a fréquemment comme résultats:"
+     },
+     {
+      "t": "p",
+      "x": "a) l'affaiblissement de l'aile roi des Noirs"
+     },
+     {
+      "t": "p",
+      "x": "b) la transformation de la structure des pions au centre après l'éventuelle percée d4-d5 ou l'échange des pièces sur la case d5. Cette structure est souvent favorable aux Blancs s'ils peuvent prendre le contrôle de la case critique e5 et de la colonne \"e\" ou\" c\". Comment. la percée d4-d5 peut-elle être efficace et quels effets peut elle . peut produire? Curieusement, dans la partie suivante, les Noirs ont tout fait pour l'empêcher!"
+     }
+    ]
+   },
+   {
+    "blocks": [
+     {
+      "t": "img",
+      "src": "/lecons/00103.gif"
+     },
+     {
+      "t": "p",
+      "x": "1.d4 d5 2.c4 dc4 3.Cf3 Cf6 4.e3 c5 5.Fc4 e6 6.0-0 a6 7.De2"
+     },
+     {
+      "t": "p",
+      "x": "Botvinnik a préféré 7.a4 empêchant l'expansion des Noirs sur l'aile Dame. Il ne faut pas oublier que ce coup comporte son revers: la case b4 va être disponible pour les manoeuvres des pièces noires."
+     },
+     {
+      "t": "p",
+      "x": "7 ... b5 8.Fb3"
+     },
+     {
+      "t": "p",
+      "x": "Le Fou garde son influence sur le centre, spécialement sur le point critique d5."
+     },
+     {
+      "t": "p",
+      "x": "Si les Noirs continuent avec 8 ... c4?! après 9.Fc2 ils devront compter avec l'avancée. des pions blancs centraux (e3-e4, d4-d5)."
+     },
+     {
+      "t": "p",
+      "x": "On rencontre ce type de position dans la défense Slave, Variante Reynolds (1.d4 d5 2.c4 c6 3.Cf3 Cf6 4.Cc3 e6 5.e3 Cbd7 6.Fd3 dc4 7.Fc4 b5 8.Fd3 a6 9.e4 c5 1 O.d5 c4 etc ... ) Mais, ici, les Noirs sont mieux préparés pour combattre cette avancée."
+     },
+     {
+      "t": "p",
+      "x": "8 ... Cc6"
+     },
+     {
+      "t": "p",
+      "x": "Aujourd'hui, on utilise plutôt 8 ... Fb7 qui garde sous contrôle les cases critiques d5 et e4 et on développe le cavalier en d7 ce qui donne une position plus souple."
+     },
+     {
+      "t": "p",
+      "x": "9.Cc3"
+     },
+     {
+      "t": "p",
+      "x": "Si 9.Tdl les Noirs peuvent continuer avec 9 ... c4 10. Fc2 Cb4 et maintenant le Fou n'a pas de refuge. A cause de cela, le coup joué dans la partie est plus précis. Une autre possibilité est 9.dc5 Fc5 1 O.e4l"
+     },
+     {
+      "t": "p",
+      "x": "9 ... cd4?"
+     },
+     {
+      "t": "p",
+      "x": "Jugement erroné! L'ouverture de la position va mieux convenir aux Blancs. Les Noirs s'inquiétaient à cause de la menace d4-d5 et pensaient la rendre impossible."
+     },
+     {
+      "t": "p",
+      "x": "L'alternative 9...Fe7 10.dc5 Fc5 11.e4 b4 12.e5 etc ... était peu satisfaisante; 9...Fb7 10.Tdl Ca5! 1 l.Fc2 Db6 etc _était plus intéressant. !"
+     }
+    ]
+   },
+   {
+    "blocks": [
+     {
+      "t": "img",
+      "src": "/lecons/00104.gif"
+     },
+     {
+      "t": "p",
+      "x": "Notons que les Noirs ne peuvent pas diminuer la pression sur la case d5 par 9...b4 à cause de 10.d5! comme l'a montré Alekhine!"
+     },
+     {
+      "t": "p",
+      "x": "Si 10... bc3 11.Fa4 Dd5 12.e4 l'avantage des Blancs est clair."
+     },
+     {
+      "t": "p",
+      "x": "Après 10...Ca5 11.Fa4 Fd7 12.de6 fe6 13.Td1"
+     },
+     {
+      "t": "p",
+      "x": "(Shamkovich a montré une suite également favorable aux Blancs : 13.Ce5 bc3 14.Cd7 Cd7 15.Dh5 Re7 16.Td1 Ta7 17.e4)"
+     },
+     {
+      "t": "p",
+      "x": "13...bc3 14.Td7 Cd7 15.Ce5 Ta7 16.bc3 Re7 (16...g6 17.Dd3 De7 18.e4 ou bien 16...Fd6 17.Dh5 g6 18.Cg6 avantage aux Blancs dans les deux cas (Alekhine);"
+     },
+     {
+      "t": "p",
+      "x": "ou 16...Db8 17.Cd7 Td7 18.Fa3 Fd6 19.Tdl Re7 20.Fd7 Rd7 2 1. Fc5 avec attaque (Shamkovich) 17.e4 Cf6 18.Fa3 avec une forte attaque (partie Alekhine-Bôôk, Margate 1938)."
+     },
+     {
+      "t": "p",
+      "x": "Toutes ces variantes sont importantes pour bien cerner les problèmes stratégiques à la case sensible d5 et des dangers inattendus qui y sont cachés."
+     },
+     {
+      "t": "p",
+      "x": "10..Tdl Fb7 11.ed4 Cb4"
+     },
+     {
+      "t": "p",
+      "x": "Une autre possibilité était 11...Ca5 mais le contrôle de la case d5 reste insuffisant."
+     },
+     {
+      "t": "p",
+      "x": "La suite peut être 12.d5! Cb3 13.de6 Dd1 (ou 13...Ca1 14.Td8 Td8 15.Cb5! Ff3 16.Cc7 Re7 17.gf3 avec une forte attaque."
+     },
+     {
+      "t": "p",
+      "x": "Pas mieux, 15...ab5 16.Db5 Cd7 17.ed7 Td7 18.Ce5 Fc8 19.Cd7 Fd7 20.Db8 Re7 21.b3 gagne, ou bien, 16...Re7 17.Db7 Re6 18.Cg5 Rf5 19.g4! Rg4 20.Df3 avec Mat) 14.Cd1! Ca1 15.ef7 Rf7 16.Cg5 Rg6 17.Dd3 Rh5 18.g4 gagne."
+     },
+     {
+      "t": "p",
+      "x": "Revenons au coup joué dans la partie."
+     },
+     {
+      "t": "p",
+      "x": "Après 11...Cb4 nous comprenons l'idée des Noirs. Ils ont utilisé toutes les pièces développées pour couvrir la case d5. Ils contrôlent maintenant cette case avec 5 pièces et les Blancs l'attaquent avec seulement 2 pièces."
+     },
+     {
+      "t": "p",
+      "x": "Il semble qu'il n'y ait pas de danger, mais regardons plus profondément : le pion e6 est cloué et la Dame noire se trouve sur la même colonne que la Tour blanche."
+     },
+     {
+      "t": "p",
+      "x": "Les Noirs n'ont pas fini leur développement sur l'aile roi et le Roi noir va être obligé de rester au centre encore un certain temps."
+     }
+    ]
+   },
+   {
+    "blocks": [
+     {
+      "t": "img",
+      "src": "/lecons/00105.gif"
+     },
+     {
+      "t": "p",
+      "x": "12.d5!!"
+     },
+     {
+      "t": "p",
+      "x": "Pion isolé en action!"
+     },
+     {
+      "t": "p",
+      "x": "Mémorisez bien ce coup, il symbolise toute la magie des Echecs!"
+     },
+     {
+      "t": "p",
+      "x": "Tout ce qui semble Impossible est possible!"
+     },
+     {
+      "t": "p",
+      "x": "Mais ici est contenue en plus une autre loi, celle de Steinitz : celui qui est mieux doit attaquer!"
+     },
+     {
+      "t": "p",
+      "x": "Stratégiquement parlant, les Blancs doivent trouver les moyens de garder l'initiative ou d'empêcher les Noirs de se consolider."
+     },
+     {
+      "t": "p",
+      "x": "Si les Blancs avaient joué encore un coup de développement comme par exemple 12.Fg5?! après 12...Cbd5! une bonne partie de leur avantage aurait pu disparaître."
+     },
+     {
+      "t": "p",
+      "x": "Comparez cette situation avec celle de la partie supplémentaire n' 1 (ANIC-CHABANON, Dubaï 1994)."
+     },
+     {
+      "t": "p",
+      "x": "12...Cbd5"
+     },
+     {
+      "t": "p",
+      "x": "Bien sûr, si 12 ... Cfd5 ou 12 ... Fd5,13.a3 gagne"
+     },
+     {
+      "t": "p",
+      "x": "13.Fg5!"
+     },
+     {
+      "t": "p",
+      "x": "Le coup-clé! Les Noirs doivent céder le centre et donner d'importantes concessions."
+     },
+     {
+      "t": "p",
+      "x": "13...Fe7 14.Ff6 gf6 15.Cd5 Fd5 16.Fd5 ed15 17.Cd4!"
+     },
+     {
+      "t": "p",
+      "x": "Le prix que les Noirs ont payé est énorme!"
+     },
+     {
+      "t": "p",
+      "x": "Une structure de pions désespérément affaiblie, le Roi bloqué au centre et un Cavalier blanc qui va terroriser les pièces noires."
+     },
+     {
+      "t": "p",
+      "x": "17...Rf8"
+     },
+     {
+      "t": "p",
+      "x": "Le petit roque 17...0-0?? est impossible car 18.Cf5 perd tout de suite et si 17...Dd7 18.Te1 Rf8 19.Dh5 avec la menace 20.Cf5 décide rapidement."
+     },
+     {
+      "t": "p",
+      "x": "18.Cf5 h5"
+     },
+     {
+      "t": "p",
+      "x": "Perd tout de suite mais 18...Ta7 n'est pas mieux : 19.De3! Td7 (19...Tc7 20.Dh6 Re8 21.Cg7 Rd7 22.Td5 gagne) 20.Dh6 Re8 21.Cg7 Rf8 22.Ce6 gagne."
+     },
+     {
+      "t": "p",
+      "x": "19.Td5! Dd5 20.De7 Rg8 21.Df6 1-0"
+     }
+    ]
+   }
+  ],
+  "excerpt": "La structure de pions caractérisée par un pion isolé au centre est un thème bien connu. Pourquoi la connaissance de ce type de position est-elle tellement importante ?",
+  "theme": "Percée au centre"
+ },
+ {
+  "slug": "structures-asymetriques",
+  "title": "Structures asymétriques",
+  "cover": "/lecons/cover-201.jpg",
+  "pages": [
+   {
+    "blocks": [
+     {
+      "t": "img",
+      "src": "/lecons/00201.gif"
+     },
+     {
+      "t": "p",
+      "x": "Dans ces positions, le jeu repose sur un équilibre dynamique de tous les éléments présents et de leur utilisation correcte. Ces positions présument un combat aigu où une erreur minime peut rapidement entraîner de graves conséquences."
+     },
+     {
+      "t": "p",
+      "x": "Tkachiev - Bezold, Makarska 1997"
+     },
+     {
+      "t": "p",
+      "x": "1.d4 Cf6 2.c4 e6 3.CI3 c5 4.d5 exd5 5.cxd5 d6 6.Cc3 g6"
+     },
+     {
+      "t": "p",
+      "x": "Les échanges ont donné la supériorité aux Blancs au centre, mais les Noirs comptent sur leur majorité de pions sur l'aile dame et le rôle que jouera leur Fou de case noire sur la diagonale al -h8. Ainsi, le contenu stratégique est déterminé pour les deux côtés. Tandis que les Blancs préparent l'avancée e2-e4-e5, les Noirs vont chercher le contre jeu combinant la poussée b7-b5 et la pression sur la colonne e. Bien entendu, chacun va essayer de freiner l'action de l'adversaire."
+     },
+     {
+      "t": "p",
+      "x": "7.Cd2"
+     },
+     {
+      "t": "p",
+      "x": "Une suite flexible. Le Cavalier vise immédiatement sa case préférée, c4, d'où il exercera une pression sur le pion d6 et contrôlera la case e5."
+     },
+     {
+      "t": "p",
+      "x": "7 ... Cbd7"
+     },
+     {
+      "t": "p",
+      "x": "Les Noirs n'aiment pas la possibilité 7 ... Fg7 8.Cc4 0-0 9.Ff4 et prennent des précautions. 8.g3 (Si 8.Cc4 Cb6 etc.) Au lieu de cela, les Blancs veulent stabiliser le contrôle du centre en mettant le Fou en g2. Une autre possibilité est 8.e4."
+     },
+     {
+      "t": "p",
+      "x": "8 ... a6 9.a4"
+     },
+     {
+      "t": "p",
+      "x": "Un pas important dans la stratégie des Blancs. Il faut empêcher la poussée b7-b5 et également assurer la case c4 pour leur Cavalier."
+     },
+     {
+      "t": "p",
+      "x": "9 ... Fg7 1O.Fg2 0-0 11.0-0 Ch5"
+     }
+    ]
+   },
+   {
+    "blocks": [
+     {
+      "t": "img",
+      "src": "/lecons/00202.gif"
+     },
+     {
+      "t": "p",
+      "x": "Cette tentative de renforcer rapidement le contrôle de la case e4 en préparant au prochain coup f7-f5, était testée pour la première fois dans la partie Nikolic,P-De Firmian, en 1986. Une suite standard et plus solide est 11 ... Te8 12.Cce4!"
+     },
+     {
+      "t": "p",
+      "x": "Sans connaître la partie de référence, Tkachiev redécouvre la meilleure continuation."
+     },
+     {
+      "t": "p",
+      "x": "12...Cdf6 13.Cxf6+ Cxf6"
+     },
+     {
+      "t": "p",
+      "x": "De Firmian avait opté pour les complications tactiques: 13 ... Fxf6 14.Cc4 Fd4 mais après 15.e3 Fg7 16.e4 Te8 17.Fd2! Tb8 18.a5 f5 19. exf5 Fxf5 20.Ta3! Fe4 21.Te1 Fxg2 22.Rxg2 Dd7 23.Tae3 Txe3 24.Txe3 Fd4 25.Te6! sa position s'est rapidement détériorée. 25 ... Cg7 26.Txd6 M 27.Ce3 De5 28.Tb6 Tf8 29.f4 De7 30.Df3 Td8 31.Cc4 Td7 32.Fc3 Cf5 33.Te6 Dd8 34.Cb6 Td6 35.De4 Rf7 36.Txd6 Dxd6 37.Cc4 Df6 38.Fxd4 Dxd4 39.Dxd4 cxd4 4O.Rf3 1-O Nikolic-De Firmian,N/Wijk 1986"
+     },
+     {
+      "t": "p",
+      "x": "14.Cc4"
+     },
+     {
+      "t": "p",
+      "x": "Il devient clair que les Noirs doivent penser à la défense."
+     },
+     {
+      "t": "p",
+      "x": "14 ... Te8 15.Ff4 Ff8 16.a5"
+     },
+     {
+      "t": "p",
+      "x": "Il est toujours utile de fixer la structure noire sur l'aile Dame."
+     },
+     {
+      "t": "p",
+      "x": "16 ... Ch5"
+     },
+     {
+      "t": "p",
+      "x": "Un choix difficile, mais comment développer l'aile dame ? Si 16 ... Ff5 17.f3! et les pièces noires vont être repoussées."
+     },
+     {
+      "t": "p",
+      "x": "17.Fd2 !"
+     },
+     {
+      "t": "p",
+      "x": "Le Fou se dirige vers la case c3 d'où il soutiendra l'avancée des pions centraux. 17...Fd7 18.Cb6 Tb8 19.e4 Fg7 20. Fc3 OE 21.Te1 Fb5 22.f4 Cd7 23.Cxd7 Dxd7 24.e5"
+     },
+     {
+      "t": "p",
+      "x": "Les Noirs ont réussi à échanger le monstre qu'était le Cavalier blanc, mais, entre temps, les Blancs ont accompli leur plan stratégique!"
+     },
+     {
+      "t": "p",
+      "x": "24 ... Dc7 25.Dd2"
+     },
+     {
+      "t": "p",
+      "x": "Hésitation sans raison! Plus fort est immédiatement 25.e6 !"
+     }
+    ]
+   },
+   {
+    "blocks": [
+     {
+      "t": "img",
+      "src": "/lecons/00203.gif"
+     },
+     {
+      "t": "p",
+      "x": "25 ... Tbd8 26.e6 fxe6 27.dxe6 d5"
+     },
+     {
+      "t": "p",
+      "x": "La conséquence de l'hésitation au 25e coup. Maintenant il faut être très précis."
+     },
+     {
+      "t": "p",
+      "x": "28.Fxg7 Dxg7 29.Te5! d4 30.Txc5 Txe6 31.Fd5 Txd5 32.Txd5 De7 33.Txb5!"
+     },
+     {
+      "t": "p",
+      "x": "Le plus simple et le plus sécurisant pour le Roi blanc !"
+     },
+     {
+      "t": "p",
+      "x": "33... axb5 34.Dxd4 Td6 35.Dc3 Tc6 36.Te1! Dd7 37.De5 Tc2 38.b4! Tc4 39.De8+ !"
+     },
+     {
+      "t": "p",
+      "x": "La finale de Tours est plus facile à jouer pour les Blancs !"
+     },
+     {
+      "t": "p",
+      "x": "39 ... Dxe8 40.Txe8+ Rf7 41.Tb8 Txb4 42.Txb7+ Re6"
+     },
+     {
+      "t": "p",
+      "x": "Si 42...Rg8? 43.a6 Ta4 44.a7+-"
+     },
+     {
+      "t": "p",
+      "x": "43.Txh7 Ta4 44.Tb7 Txa5 45.Rg2! Rf5 46.Rh3 g5 47.fxg5 Rxg5 48.Tb6! Rh5"
+     },
+     {
+      "t": "p",
+      "x": "49.Tc6!"
+     },
+     {
+      "t": "p",
+      "x": "Les manoeuvres subtiles soulignent bien la maladroite position de la Tour noire."
+     },
+     {
+      "t": "p",
+      "x": "49 ... b4 50.Tb6 Ta4 51.Tb5+ Rg6 52.g4 Ta3 53.Rh4 Tb3 54.Tb6+ Rf7 55.g5 Tb2 56.h3 b3 57.Rh5 Tbl 58.h4 b2 59.Rh6 Th1 60.g6+ Re7 61.Txb2 Txh4+ 62.Rg7 1 -0"
+     },
+     {
+      "t": "p",
+      "x": "Parties annexes:"
+     },
+     {
+      "t": "p",
+      "x": "Si les Noirs, à cause d'imprécisions, n'arrivent pas à créer le contre jeu sur l'aile dame, ils peuvent subir tous les inconvénients d'une éventuelle ouverture du centre, ce que va nous montrer la partie supplémentaire n° 1"
+     },
+     {
+      "t": "p",
+      "x": "Remarquez également le plan atypique de Kasparov dans la partie supplémentaire n° 2."
+     },
+     {
+      "t": "p",
+      "x": "Partie supplémentaire n° 1"
+     }
+    ]
+   },
+   {
+    "blocks": [
+     {
+      "t": "img",
+      "src": "/lecons/00204.gif"
+     },
+     {
+      "t": "p",
+      "x": "Gligoric - Minic, Pula 1972"
+     },
+     {
+      "t": "p",
+      "x": "1.d4 Cf6 2.c4 c5 3.d5 e6 4.Cc3 exd5 5.cxd5 d6 6.e4 Les Blancs s'engagent immédiatement au centre."
+     },
+     {
+      "t": "p",
+      "x": "6 ... g6 7.Cf3 Fg7 8.Fe2 0-0 9. 0-0 Te8 10.Cd2"
+     },
+     {
+      "t": "p",
+      "x": "Un regroupement typique pour ce type de position, 10 ... Ca6 Une méthode différente pour préparer la poussée des pions sur l'aile Dame:le Cavalier se dirige vers la case c7, afin de mieux soutenir l'avancée b7-b5."
+     },
+     {
+      "t": "p",
+      "x": "Egalement, il compte alourdir la percée du pion e, en visant le pion d5!"
+     },
+     {
+      "t": "p",
+      "x": "11.f3!"
+     },
+     {
+      "t": "p",
+      "x": "Une mesure temporaire qui permet aux Blancs de terminer le regroupement de leurs pièces."
+     },
+     {
+      "t": "p",
+      "x": "11 ... Cc7 12.a4 Cd7 13.Rh1"
+     },
+     {
+      "t": "p",
+      "x": "Ultérieurement, les Noirs pourraient profiter d'une attaque sur le Roi blanc!"
+     },
+     {
+      "t": "p",
+      "x": "13 ... b6 14.Cc4 Ce5 15.Ce3!"
+     },
+     {
+      "t": "p",
+      "x": "Les Noirs ont moins d'espace vital et les échanges prématurés auraient facilité leur jeu."
+     },
+     {
+      "t": "p",
+      "x": "15 ... Tb8 16.Fd2 a6 17.f4!"
+     },
+     {
+      "t": "p",
+      "x": "Le moment pour l'action est venu!"
+     },
+     {
+      "t": "p",
+      "x": "17 ... Cd7 18.Cc4! Cf6 19.Ff3 19 ... Cxd6 20.Cxd6!"
+     },
+     {
+      "t": "p",
+      "x": "Juste au bon moment!"
+     },
+     {
+      "t": "p",
+      "x": "20 ... Dxd6 21.e5 Dd8 22. d6!"
+     },
+     {
+      "t": "p",
+      "x": "Perturbe encore plus les pièces noires et évite un éventuel blocus du pion d."
+     },
+     {
+      "t": "p",
+      "x": "22 ... Ce6 23.exf6 Fxf6 24.f5!"
+     },
+     {
+      "t": "p",
+      "x": "Le Roi noir tombera sous l'attaque!"
+     },
+     {
+      "t": "p",
+      "x": "24 ... gxf5 25.Fc6! Tf8 26.Txf5 Cd4 27.Txh5! Dxd6"
+     },
+     {
+      "t": "p",
+      "x": "La pièce est empoisonnée: 27 ... Cxc6? 28.Dc2! et le mat est imparable!"
+     },
+     {
+      "t": "p",
+      "x": "28.Fd5 Ff5 29.Txf5! Cxf5 30.Dg4+ Cg7 31.Ce4 Dd8 32.Tf1 Fe5 33.Fc3!"
+     },
+     {
+      "t": "p",
+      "x": "Une dernière précision! Si 33 ... Dxd5 34.Cf6+ Fxf6 35.Fxf6 mène au mat. 1-0"
+     }
+    ]
+   },
+   {
+    "blocks": [
+     {
+      "t": "img",
+      "src": "/lecons/00205.gif"
+     },
+     {
+      "t": "p",
+      "x": "Partie supplémentaire n°2"
+     },
+     {
+      "t": "p",
+      "x": "Kasparov - Nunn, Luzern(ol), 1982"
+     },
+     {
+      "t": "p",
+      "x": "1.d4 Cf6 2.c4 e6 3.Cc3 c5 4.d5 exd5 5.cxd5 d6 6.e4 g6 7.f4"
+     },
+     {
+      "t": "p",
+      "x": "Une solution radicale! Les Blancs souhaitent démontrer la force des pions centraux!"
+     },
+     {
+      "t": "p",
+      "x": "7 ... Fg7 8.Fb5+!"
+     },
+     {
+      "t": "p",
+      "x": "Une bonne manière d'accélérer le développement. Possible est 8.e5"
+     },
+     {
+      "t": "p",
+      "x": "8 ... Cfd7"
+     },
+     {
+      "t": "p",
+      "x": "8 ... Cbd7? tombe sur 9.e5!"
+     },
+     {
+      "t": "p",
+      "x": "9.a4!"
+     },
+     {
+      "t": "p",
+      "x": "Il ne faut pas oublier de limiter le mouvement des pions noirs!"
+     },
+     {
+      "t": "p",
+      "x": "9 ... Ca6 10 Cf3 Cb4 11.0-0 a6 12.Fxd7+!"
+     },
+     {
+      "t": "p",
+      "x": "Une approche concrète vers les problèmes de la position! Le gain de temps, l'élimination du Cavalier qui contrôlait la case e5 et qui était aussi une pièce de défense, comme le fait que le Cb4 est éloigné de l'aile Roi, sont autant d'éléments constitutifs d'un nouveau plan d'attaque sur l'aile Roi!"
+     },
+     {
+      "t": "p",
+      "x": "12 ... Fxd7 13.f5!"
+     },
+     {
+      "t": "p",
+      "x": "Atypique pour cette structure, mais très efficace!"
+     },
+     {
+      "t": "p",
+      "x": "1 3 ... 0-0 14.Fg5! f6 15.Ff4 gxf5?"
+     },
+     {
+      "t": "p",
+      "x": "Sous-estime les possibilités d'attaque blanche. Indispensable était 15 ... De7"
+     },
+     {
+      "t": "p",
+      "x": "16.Fxd6 Fxa4 17.Txa4 Dxd6 18.Ch4! fxe4 19.Cf5"
+     },
+     {
+      "t": "p",
+      "x": "On ne peut pas espérer grand chose contre un tel Cavalier!"
+     },
+     {
+      "t": "p",
+      "x": "19 ... Dd7 20.Cxe4 Rh8 2l.Cxc5"
+     },
+     {
+      "t": "p",
+      "x": "Après 21...Dxd5 décide et 22.Dxd5 Cxd5 23.Ce6! 1-0"
+     }
+    ]
+   }
+  ],
+  "excerpt": "Le jeu repose sur un équilibre dynamique de tous les éléments présents. Ces positions présument un combat aigu où une erreur minime peut entraîner de graves conséquences.",
+  "theme": "La structure Benoni"
+ },
+ {
+  "slug": "structures-symetriques",
+  "title": "Structures symétriques",
+  "cover": "/lecons/cover-301.jpg",
+  "pages": [
+   {
+    "blocks": [
+     {
+      "t": "img",
+      "src": "/lecons/00301.gif"
+     },
+     {
+      "t": "p",
+      "x": "Parmi les structures symétriques, la structure qui ressort de la partie italienne et des ouvertures de la même famille, comme \"la Partie de quatre Cavaliers\" , est assez bien connue dans la pratique mais étonnement rarement étudiée. Les positions issues de cette structure sont apparemment si simples que l'on perd le sentiment du danger, et quand on se réveille, c'est déjà trop tard! L'initiative peut être prise uniquement si l'on s'engage au centre et si on commence à avancer les pions - ce qui résulte souvent de l'ouverture d'une colonne. Vous devinez que celui qui contrôle la colonne ouverte tient la clé de la victoire!"
+     },
+     {
+      "t": "p",
+      "x": "INKIOV - SCHUSSLER Haifa, 1989"
+     },
+     {
+      "t": "p",
+      "x": "1.e4 e5 2.Fc4"
+     },
+     {
+      "t": "p",
+      "x": "Ce coup flexible permet aux Blancs d'imposer leur choix de variante."
+     },
+     {
+      "t": "p",
+      "x": "2...Cf6 3.d3 Cc6 4.Cf3 Fc5 5.Cc3 a6?!"
+     },
+     {
+      "t": "p",
+      "x": "Joué avec l'intention de conserver le puissant Fc5, ce coup fait perdre un tempo très tôt dans la partie."
+     },
+     {
+      "t": "p",
+      "x": "6.Fg5 h6 7.Fxf6 Dxf6 8.Cd5 Dd8 9.c3"
+     },
+     {
+      "t": "p",
+      "x": "Nous voyons maintenant l'idée de l'échange du Fou pour le Cf6. Tandis que la case d5 est affaiblie et devient une base idéale pour le Cavalier blanc, nous voyons qu'au contraire, les Noirs ont perdu le contrôle de la case d4."
+     },
+     {
+      "t": "p",
+      "x": "9...d6 10.d4 Fa7"
+     },
+     {
+      "t": "p",
+      "x": "Dans la partie Ivanovic-Ilincic (tt 1986), les Noirs ont échangé en d4 mais les Blancs ont développé une forte initiative qui s'est ultérieurement transformée en une écrasante attaque : 10...exd4 11.cxd4 Fa7 12.Tc1! 0-0 13.h3 Te8 14.0-0! Txe4 15.Fd3 Te8 16.Fb1 g6?! 17.Dd2 Rg7 18.Tfe1 Fe6 19.Cf4 Fd7 20.Txe8 Dxe8 21.Cd5! Tc8 22.Te1 Dd8 23.g4 Fe6 24.Cf4 Fd7 25.Fxg6! fxg6 26.Te6"
+     }
+    ]
+   },
+   {
+    "blocks": [
+     {
+      "t": "img",
+      "src": "/lecons/00302.gif"
+     },
+     {
+      "t": "p",
+      "x": "a) Maintenant la défense 26...Ce7 tombe sur 27.Ch5+! Rh7 28.Tf6 Dg8 (28 ... Fe8 29.Df4 Cd5 30.Tf7+ Rg8 31.Tf8+ Rh7 32.Th8+!+-) 29.Df4 Fe8 30.Tf8 Cd5 3 I.Txg8 Cxf4 32.Cf6#; b) Les Noirs ont joué 26...Fe8 mais les Blancs ont raté le gain immédiat par 27.Ch5+! Rf7 (27 ... gxh5 28.Dxh6+ Rf7 29.d5+; 27...Rh7 28.Cf6+ Rg7 29.Cxe8++) 28.d5 g5 29.Dd3+-"
+     },
+     {
+      "t": "p",
+      "x": "11.dxe5!"
+     },
+     {
+      "t": "p",
+      "x": "C'est le bon moment pour penser à la colonne!"
+     },
+     {
+      "t": "p",
+      "x": "11...dxe5 12.De2!"
+     },
+     {
+      "t": "p",
+      "x": "laissant la place à la Tour"
+     },
+     {
+      "t": "p",
+      "x": "12...Fg4 13.Td1 Dd8"
+     },
+     {
+      "t": "p",
+      "x": "une bien malheureuse place pour la Dame noire! Il fallait déjà penser à la menace Cb6 14.b4! 0-0 15.h3 Fe6 16.0-0 Te8 17.Ch4"
+     },
+     {
+      "t": "p",
+      "x": "On ressent fortement l'absence des pièces sur l'aile Roi. Les pièces noires, concentrées sur l'aile Dame, n'ont pas de fonction définie."
+     },
+     {
+      "t": "p",
+      "x": "17...b5 18.Fb3 Ce7 19. Cf6+!! gxf6 20.Fxe6 fxe6 21.Dg4+ Rh8"
+     },
+     {
+      "t": "p",
+      "x": "Inkiov a montré que les autres réponses ne sont pas meilleures : 21...Rh7 22.Td7 Dc8 23.Dg6++-; 21...Rf7 22.Dh5+ Rg7 23.Td3; 21...Rf8 22.Dh5 Td8 (22...Cg8 23.Td7 Te7 24.Cg6+ Re8 25.Cxe5+ Rf8 26.Txe7+-) 23.Dxh6+ Rf7 24.Dh7+ Rf8 25.Cg6+ Cxg6 26.Dxg6 Td6 (26...Txd1 27.Dxf6+ Rg8 28.Dxe6+ Rf8 29.Txd1+-) 27.Dxf6+ Rg8 28.Txd6 cxd6 29.Dxe6+ Rf8 30.Td1 +-"
+     },
+     {
+      "t": "p",
+      "x": "22.Td7!"
+     },
+     {
+      "t": "p",
+      "x": "Les Blancs utilisent pleinement leurs avantages."
+     },
+     {
+      "t": "p",
+      "x": "22...Tg8 23.Dxe6 Df8"
+     }
+    ]
+   },
+   {
+    "blocks": [
+     {
+      "t": "img",
+      "src": "/lecons/00303.gif"
+     },
+     {
+      "t": "p",
+      "x": "Les Noirs ne peuvent pas éviter la perte de matériel. 24.Txe7 Td8 25.Cf5"
+     },
+     {
+      "t": "p",
+      "x": "C'est la position rêvée de chaque Cavalier!"
+     },
+     {
+      "t": "p",
+      "x": "25...Tg6 26.Txc7 Fb8 27.Tf7 De8 28.Dxe8+ Txe8 29.Td1 La pénétration de la deuxième Tour sur la 7ème rangée décide rapidement de l'issue de la partie. 1-0"
+     },
+     {
+      "t": "p",
+      "x": "Les positions symétriques revêtent les risques liés au moment où il faut casser la symétrie, et les surprises sont fréquentes comme en témoigne la partie supplémentaire n°1."
+     },
+     {
+      "t": "p",
+      "x": "Mais suivre la symétrie à la lettre fait courir de plus grands dangers! Etudiez attentivement les analyses de la partie supplémentaire n°2."
+     },
+     {
+      "t": "p",
+      "x": "Partie Supplémentaire n°1"
+     },
+     {
+      "t": "p",
+      "x": "OPOCHENSKY -GRDYNA 1924"
+     },
+     {
+      "t": "p",
+      "x": "l.e4 e5 2.Cf3 Cc6 3.Cc3 Cf6 4.Fb5 Fb4"
+     },
+     {
+      "t": "p",
+      "x": "Le système du jeu des 4 Cavaliers est basé sur l'équilibre trompeur de la symétrie. 5.0-0 0-0 6.d3 D6 7.Fg5 Ce7 8.Ch4"
+     },
+     {
+      "t": "p",
+      "x": "Il n'est pas suffisant de doubler les pions noirs par: 8.Fxf6 gxf6 9.Ch4 Cg6 10.Cxg6 hxg6 11.f4 Rg7 12.Df3 Fc5+ 13.Rh1 exf4 14.Dxf4 Fd4!"
+     },
+     {
+      "t": "p",
+      "x": "8...c6 9.Fc4 Cg6 10.Cxg6 hxg6 11.F4 Db6+?!"
+     },
+     {
+      "t": "p",
+      "x": "Bien meilleur était 11...Fc5+ 12.Rh1 Fe3 13.Df3 Fxf4 14.Fxf4 exf4 15.Dxf4 De7 et la position noire est solide."
+     },
+     {
+      "t": "p",
+      "x": "12.Rh1 Cg4 13.De1 Ce3?"
+     },
+     {
+      "t": "p",
+      "x": "Indispensable était 13...exf4 14.Txf4 Ce5"
+     },
+     {
+      "t": "p",
+      "x": "14.f5!"
+     },
+     {
+      "t": "p",
+      "x": "Soudainement l'attaque devient réalité!"
+     },
+     {
+      "t": "p",
+      "x": "14...Cxc4"
+     },
+     {
+      "t": "p",
+      "x": "Il est difficile de comprendre quelle pièce est la plus dangereuse! Si 14...Cxf1 15.fxg6 d5 16.Dh4 fxg6 17.exd5 cxd5 (17...Ce3 18.Fxe3 Dxe3 l9.d6+ Tf7 20.Dd8+!; 17...Fxc3 18.d6+ Tf7 19.Txf1 Ff5 20.d7!; 17...Tf7 18.d6 Ff5 19.Fxf7+ Rxf7 20.Dc4+!) 18.Cxd5! gagne."
+     }
+    ]
+   },
+   {
+    "blocks": [
+     {
+      "t": "img",
+      "src": "/lecons/00304.gif"
+     },
+     {
+      "t": "p",
+      "x": "15.f6! Fg4"
+     },
+     {
+      "t": "p",
+      "x": "Les Noirs essaient désespérément de couvrir la colonne \"h\"."
+     },
+     {
+      "t": "p",
+      "x": "16.Dh4 Fh5 17.g4 Ce3 18.gxh5 Cxf1 19.h6!!"
+     },
+     {
+      "t": "p",
+      "x": "1-0"
+     },
+     {
+      "t": "p",
+      "x": "Partie supplémentaire n°2"
+     },
+     {
+      "t": "p",
+      "x": "V. MOSKWA - LECTEURS Moscou, 1936"
+     },
+     {
+      "t": "p",
+      "x": "l.e4 e5 2.Cf3 Cc6 3.Cc3 Cf6 4.Fb5 Fb4 5.0-0 0-0 6.d3 d6 7.Fg5"
+     },
+     {
+      "t": "p",
+      "x": "Suivre la symétrie aveuglément donne parfois d'amusants résultats! 7.Fxc6 Fxc3? 8.Fxb7 Fxb2 9.Fxa8 Fxa1 10.Fg5 Fg4 11.Dxa1 Dxa8 12.Fxf6 Fxf3 13.Fxe5 Fxe4 14.Fxg7 Fxg2 15.Fxf8 et les Noirs ont été obligés d'abandonner car les Blancs menacent mat les premiers (Traxler-Schamanek, 1915)"
+     },
+     {
+      "t": "p",
+      "x": "7...Fg4?"
+     },
+     {
+      "t": "p",
+      "x": "La suite habituelle est 7...Fxc3 8.bxc3"
+     },
+     {
+      "t": "p",
+      "x": "A) 8...Fd7 9.Te1 (9.Dd2 h6 10.Fh4 Fg4) 9...Ce7! 10.Fxf6 Fxb5;"
+     },
+     {
+      "t": "p",
+      "x": "B) 8...Ce7;"
+     },
+     {
+      "t": "p",
+      "x": "C) 8...De7 et dans tous ces cas, les Noirs ont des positions jouables."
+     },
+     {
+      "t": "p",
+      "x": "8.Cd5 Cd4 9.Cxb4 Cxb5 10.Cd5 Cd4 11.Dd2!"
+     },
+     {
+      "t": "p",
+      "x": "Grâce au trait, dans cette position symétrique, les Blancs vont arriver à créer les menaces les plus dangereuses."
+     },
+     {
+      "t": "p",
+      "x": "11...Fxf3"
+     },
+     {
+      "t": "p",
+      "x": "Suivre encore la symétrie perd très vite!"
+     },
+     {
+      "t": "p",
+      "x": "11 ... Dd7? 12.Fxf6 Fxf3 13.Ce7+ Rh8 14.Fxg7+ Rxg7 15.Dg5+ Rh8 16.Df6# Ne suffisent pas plus ni: 11...c6 12.Cxf6+ gxf6 13.Fh4 Fxf3 14.Dh6 Ce2+ (14...Dd7 15.h3! Ce2+ 16.Rh2 Fxg2 17.Fxf6 Dxh3+ 18.Dxh3 Fxh3 19.Tg1++) 15.Rh1 Fxg2+ 16.Rxg2 Cf4+ 17.Rh1 Cg6 18.Tg1 Rh8 19.Tg4 Tg8 20.Tag1 De7 21.f4 exf4 22.Txf4 Cxh4 23.Dxh7+! Rxh7 24.Txh4#"
+     }
+    ]
+   },
+   {
+    "blocks": [
+     {
+      "t": "img",
+      "src": "/lecons/00305.gif"
+     },
+     {
+      "t": "p",
+      "x": "ni 11...Cxf3+ 12.gxf3 Fxf3 et là, il ne faut pas se tromper avec"
+     },
+     {
+      "t": "p",
+      "x": "A) 13.Fxf6? gxf6 14.Dh6 Rh8! 15.h4 (15.Cxf6 Tg8+-+; 15.Tfc1 Tg8+ 16.Rf1 Tg6) 15...Tg8+ 16.Rh2 Tg2+ 17.Rh3 Dd7# mais continuer par:"
+     },
+     {
+      "t": "p",
+      "x": "B) 13.h3! 13...c6 (13...Cxe4 14.dxe4 f6) 14.Cxf6+ gxf6 15.Fh4 Rh8 16.Rh2 Tg8 17.Tgl Tg6 18.De3 Fh5 19.f4 Df8 20.f5 Dh6 21.Txg6!+-"
+     },
+     {
+      "t": "p",
+      "x": "12.Fxf6 gxf6 13.Dh6 Ce2+ 14.Rh1 Fxg2+"
+     },
+     {
+      "t": "p",
+      "x": "C'est le seul moyen d'échanger le terrible Cd5! 15.Rxg2 Cf4+ 16.Cxf4 exf4 17.Rh1! Bien entendu, les Blancs sont en position de mieux utiliser la colonne \"g\"."
+     },
+     {
+      "t": "p",
+      "x": "17...Rh8 18.Tg1 Tg8 19.Txg8+ Dxg8 20.Tg1"
+     },
+     {
+      "t": "p",
+      "x": "1-0"
+     }
+    ]
+   }
+  ],
+  "excerpt": "La structure issue de la partie Italienne et des ouvertures de la même famille est assez bien connue dans la pratique, mais étonnamment rarement étudiée.",
+  "theme": "La structure Italienne"
+ },
+ {
+  "slug": "structure-karlsbad",
+  "title": "Structure Karlsbad",
+  "cover": "/lecons/cover-401.jpg",
+  "pages": [
+   {
+    "blocks": [
+     {
+      "t": "img",
+      "src": "/lecons/00402.gif"
+     },
+     {
+      "t": "p",
+      "x": "La structure de pions \"Karlsbad\" est l'une des structures que l'on rencontre le plus fréquemment dans les tournois. Elle provient de plusieurs systèmes d'ouverture, par exemple :"
+     },
+     {
+      "t": "p",
+      "x": "- Gambit Dame :"
+     },
+     {
+      "t": "p",
+      "x": "1.d4 d5 2.c4 e6 3.Cc3 Cf6 4.Fg5 Fe7 5.Cf3 0-0 6.e3 Cbd7 7.cxd5 exd5"
+     },
+     {
+      "t": "p",
+      "x": "- Grünfeld-indienne :"
+     },
+     {
+      "t": "p",
+      "x": "1.d4 Cf6 2.c4 g6 3.Cc3 d5 4.Cf3 Fg7 5.Fg5 Ce4 6.cxd5 Cxg5 7.Cxg5 e6 8.Cf3 exd5"
+     },
+     {
+      "t": "p",
+      "x": "- Nimzo-Indienne :"
+     },
+     {
+      "t": "p",
+      "x": "1.d4 Cf6 2.c4 e6 3.Cc3 Fb4 4.Dc2 d5 5.cxd5 exd5"
+     },
+     {
+      "t": "p",
+      "x": "- Caro-Kann :"
+     },
+     {
+      "t": "p",
+      "x": "l.e4 c6 2.d4 d5 3.exd5 cxd5 4.Fd3 Cc6 5.c3 (avec les couleurs opposées)"
+     },
+     {
+      "t": "p",
+      "x": "D'où vient son nom, \"Karlsbad\"?"
+     },
+     {
+      "t": "p",
+      "x": "En 1923, lors du grand tournoi de Karlsbad, plusieurs participants avaient évité la variante Cambridge-Springs (encore une ville!) en jouant 1.d4 d5 2. c4 e6 3.Cc3 Cf6 4.Fg5 c6 5.e3 Cbd7 6.Cf3 Da5 7.cxd5 exd5 Les commentateurs ont alors baptisé cette structure: \"Karlsbad\" ... Le système est attractif pour les Blancs à cause de la diversité des plans:"
+     },
+     {
+      "t": "p",
+      "x": "a) Attaque de minorité sur l'aile Dame - le plus connu et notre sujet d'aujourd'hui"
+     },
+     {
+      "t": "p",
+      "x": "b) Attaque au centre par e3-e4"
+     },
+     {
+      "t": "p",
+      "x": "c) Attaque sur l'aile Roi quand Blancs et Noirs ont fait le petit roque"
+     },
+     {
+      "t": "p",
+      "x": "d) Attaque sur l'aile Roi quand les Blancs ont fait le grand roque."
+     },
+     {
+      "t": "p",
+      "x": "L'attaque de minorité consiste en l'avancée du pion b2-b4-b5, attaquant ainsi le pion c6, maillon-clé de la chaîne noire."
+     }
+    ]
+   },
+   {
+    "blocks": [
+     {
+      "t": "img",
+      "src": "/lecons/00401.gif"
+     },
+     {
+      "t": "p",
+      "x": "Les Noirs ont alors deux choix, aussi défavorables l'un que l'autre:"
+     },
+     {
+      "t": "p",
+      "x": "a) prendre en b5, cassant leur chaîne et affaiblissant les pions b7 et d5 ou"
+     },
+     {
+      "t": "p",
+      "x": "b) laisser les Blancs prendre en c6, amenant ainsi une structure affaiblie avec le pion c6 arriéré. Pour se défendre contre ce plan stratégique, les Noirs peuvent appliquer plusieurs méthodes de défense:"
+     },
+     {
+      "t": "p",
+      "x": "a) l'attaque des pions sur l'aile Roi b) l'attaque sur le petit roque blanc avec les pièces c) la montée de la barrière b7-b5 pour contrer l'avancée du pion b4-b5 d) l'attaque du centre par c6-c5."
+     },
+     {
+      "t": "p",
+      "x": "PETROSSIAN,T -- KROGIUS,N Tbilisi 1959"
+     },
+     {
+      "t": "p",
+      "x": "1.d4 Cf6 2.c4 g6 3.Cc3 d5 4.Cf3 Fg7 5.Fg5 Ce4 6.cxd5 Cxg5 7.Cxg5 e6 8.Cf3 exd5"
+     },
+     {
+      "t": "p",
+      "x": "Les Blancs ont volontairement donné leur Fou de cases noires pour le Cavalier, obtenant ainsi une structure de pions qui va favoriser les Cavaliers car la chaîne de pions blancs limite l'activité du Fg7."
+     },
+     {
+      "t": "p",
+      "x": "9.e3 0-0 10.b4!"
+     },
+     {
+      "t": "p",
+      "x": "Avant de terminer leur développement sur l'aile Roi, les Blancs s'assurent à la fois plus d'espace sur l'aile Dame et la stabilité du centre en contrôlant la case c5."
+     },
+     {
+      "t": "p",
+      "x": "10...Cc6"
+     },
+     {
+      "t": "p",
+      "x": "Plus habituel est 10...c6 11.Fe2 Fe6 12.0-0 Cd7 13.Tc1 f5 14.b5 f4 ou 10...Fe6 11.Fe2 Cd7 12.0--0 f5 13.Te1 g5 14.Tc1 Rh8 avec des contre chances. Notons qu'il est nécessaire de les créer à temps!"
+     },
+     {
+      "t": "p",
+      "x": "11.b5! Ce7 12.Fd3 Ff5 13.Fxf5 Cxf5 14.0-0 Dd6 15.Db3 Ce7 16.Tfc1 Rh8 17.Tc2 c6"
+     },
+     {
+      "t": "p",
+      "x": "Ce coup est pratiquement inévitable, et voilà la structure Karlsbad!"
+     }
+    ]
+   },
+   {
+    "blocks": [
+     {
+      "t": "img",
+      "src": "/lecons/00403.gif"
+     },
+     {
+      "t": "p",
+      "x": "18.Tac1 h6 19.Ca4!"
+     },
+     {
+      "t": "p",
+      "x": "Ce sont les Blancs qui choisissent le moment de la prise! D'abord on dirige le Cavalier vers son futur poste: c5."
+     },
+     {
+      "t": "p",
+      "x": "19...Tab8 20.g3!"
+     },
+     {
+      "t": "p",
+      "x": "La prise est encore prématurée, la Dame blanche n'ayant pas de bonnes cases. Le coup joué entre parfaitement dans la conception stratégique des Blancs car il rend plus difficile la percée thématique f7-f5-f4."
+     },
+     {
+      "t": "p",
+      "x": "20...Rh7"
+     },
+     {
+      "t": "p",
+      "x": "Les Noirs n'ont plus de plan valable. Si 20 ... cxb5 21.Dxb5 b6 22.Tc7 Tfc8 23.Txc8+ Txc8 24.Txc8+ Cxc8 25.De8+ Df8 26.Dd7±"
+     },
+     {
+      "t": "p",
+      "x": "21.Cc5 Tfd8 22.bxc6 bxc6 23.Da4"
+     },
+     {
+      "t": "p",
+      "x": "Deux faiblesses sont apparues dans le camp des Noirs: les pions a7 et c6"
+     },
+     {
+      "t": "p",
+      "x": "23...Df6"
+     },
+     {
+      "t": "p",
+      "x": "Les Noirs cherchent les moyens tactiques de protéger leurs pions"
+     },
+     {
+      "t": "p",
+      "x": "24.Rg2 Ta8 25.Cb7!"
+     },
+     {
+      "t": "p",
+      "x": "Après une simple manoeuvre, le pion c6 devient indéfendable"
+     },
+     {
+      "t": "p",
+      "x": "25...Te8 26.Ca5 g5"
+     },
+     {
+      "t": "p",
+      "x": "Stratégiquement la position des Noirs est sans espoir. Alors, ils se lancent dans une attaque désespérée"
+     },
+     {
+      "t": "p",
+      "x": "27.h3!"
+     },
+     {
+      "t": "p",
+      "x": "Le pion c6 n'échappera pas à son destin!"
+     },
+     {
+      "t": "p",
+      "x": "27...Df5 28.Cxc6 De4"
+     },
+     {
+      "t": "p",
+      "x": "Le clouage sera- t-il dangereux?"
+     }
+    ]
+   },
+   {
+    "blocks": [
+     {
+      "t": "img",
+      "src": "/lecons/00404.gif"
+     },
+     {
+      "t": "p",
+      "x": "29.Tc5!"
+     },
+     {
+      "t": "p",
+      "x": "Maintenant la Dame blanche dispose de la case c2. 29...f5 30.Dc2 Cxc6 31.Txc6 f4 32.exf4 gxf4 33.g4!"
+     },
+     {
+      "t": "p",
+      "x": "Le Roi est en sécurité dans sa coque!"
+     },
+     {
+      "t": "p",
+      "x": "33...Fxd4 34.Dd2! Le plus simple!"
+     },
+     {
+      "t": "p",
+      "x": "34...Fg7 35.Te1 Da4 36.Dxd5 Txe1 37.Cxe1 Tf8 38.Cf3 Les échanges n'ont fait que souligner l'impuissance des Noirs!"
+     },
+     {
+      "t": "p",
+      "x": "38...Rh8 39.Tc7 a6 40.Db7 Tg8 41.Ch4 1-0"
+     },
+     {
+      "t": "p",
+      "x": "Une partie sans variante spectaculaire, mais si instructive dans toutes les phases du jeu par son traitement stratégique exemplaire!"
+     },
+     {
+      "t": "p",
+      "x": "PARTIES ANNEXES Partie supplémentaire n°1"
+     },
+     {
+      "t": "p",
+      "x": "TAIMANOV,M. - NEZMETDINOV,R Kiev 1954"
+     },
+     {
+      "t": "p",
+      "x": "l.d4 d5 2.c4 e6 3.Cf3 c6 4.cxd5 exd5 5.Cc3 Cf6 6.Fg5 Fe7 7.Dc2 Cbd7 8.e3 0-0 9.Fd3 Te8 10.0-0 Cf8 11.Tab1"
+     },
+     {
+      "t": "p",
+      "x": "Position typique de la variante d'échange. Avec ce coup, les Blancs dévoilent leurs intentions: mener une attaque de minorité sur l'aile Dame. On obtient le même but par: 11.Fxf6 Fxf6 12.b4 ou 11.a3"
+     },
+     {
+      "t": "p",
+      "x": "11...a5!"
+     },
+     {
+      "t": "p",
+      "x": "Il est de première importance d'échanger les pions \"a\", pas seulement de faire jouer la Ta8 mais d'éliminer une faiblesse potentielle! Une deuxième méthode est de jouer a7-a6 après b2-b4."
+     },
+     {
+      "t": "p",
+      "x": "12.a3 Ce4"
+     },
+     {
+      "t": "p",
+      "x": "Un autre plan est 12...Cg6 13.b4 axb4 14.axb4 Fd6"
+     },
+     {
+      "t": "p",
+      "x": "13.Fxe7 Dxe7 14.b4 axb4 15.axb4 Cg6"
+     }
+    ]
+   },
+   {
+    "blocks": [
+     {
+      "t": "img",
+      "src": "/lecons/00405.gif"
+     },
+     {
+      "t": "p",
+      "x": "Beaucoup plus tard, dans une position où le pion blanc se trouve en a4 et le noir en a6, Ljubojevic a montré une idée intéressante: 14...Ff5!? 15.Ce5 Tad8 16.Tfc1 Cg6 17.Fxe4! Fxe4! 18.Cxe4 mais avec une finale difficile après 18...dxe4? 19.Cxg6 hxg6 20.b5 cxb5 21.axb5 Td6 22.bxa6 bxa6 23.Da4 Dd7 24.Dxd7! Txd7 25.Tc5 (Karpov-Ljubojevic, Linares, 1989). Le bon chemin était 18...Cxe5! 19.Cd2 Cd7 20.b5 axb5 2l.axb5 Tc8 22.bxc6 bxc6 23.Tb7 Dd6 avec une position incertaine."
+     },
+     {
+      "t": "p",
+      "x": "16.b5?!"
+     },
+     {
+      "t": "p",
+      "x": "Imprécision! 16.Fxe4 était mieux 16...dxe4 17.Cd2 Ff5 18.b5 ou bien 16.Tfc1!"
+     },
+     {
+      "t": "p",
+      "x": "16...Fg4 17.Cd2? Une faute grave! Encore possible était 17.Fxe4 dxe4 18.Cd2 17...Cxd2! 18.Dxd2 Ch4!"
+     },
+     {
+      "t": "p",
+      "x": "Coup d'une force inattendue! Soudainement les Blancs sont confrontés à de mortelles menaces!"
+     },
+     {
+      "t": "p",
+      "x": "19.f3"
+     },
+     {
+      "t": "p",
+      "x": "La seule chance pratique! Les Blancs donnent un pion et restent dans une finale perdante, mais ils évitent le mat et les grosses pertes! Si 19.Fe2 Fh3!! 20.gxh3 Dg5+ 21.Fg4 Cf3+ gagne la Dame et si 19.Rh1 Cf3!! et Dh4"
+     },
+     {
+      "t": "p",
+      "x": "19...Dxe3+ 20.Dxe3 Txe3 21.fxg4 Txd3 22.bxc6 bxc6! 23.Ce2 Td2! 24.Tf2 h6 25.Tbf1 Cg6 26.h3 f6 27.Cg3 Txd4 28.Tb1 Ta7 29.Tb8+ Rh7 30.Tfb2 Td1+ 31.Rh2 Te1 32.Td8 Cf4 33.Ch5 Te2 34.Txe2 Cxe2 35.Tc8 Cd4 36.Cf4 Te7 37.h4 Te4 38.Rg3 Te3+ 39.Rf2 Te4 40.g3 Ce6 41.Txc6 Cxf4 42.gxf4 Txf4+ 43.Rg3 Te4 44.Td6 Te5 45.h5 Rg8 46.Rf4 g5+?"
+     },
+     {
+      "t": "p",
+      "x": "Laisse échapper la victoire car le pion h6 tombe! Le gain n'était pourtant pas loin: 46 ... Rf7 47.Td7+ Re6 48.Txg7 d4 et les Blancs n'ont pas le temps de chercher le pion h6."
+     },
+     {
+      "t": "p",
+      "x": "47.Rf3 Rf7 48.Td7+ Re6 49.Th7 d4 50.Txh6 Te3+ 51.Rf2 Te4 52.Rf3 Tf4+ 53.Rg3 d3 54.Th5 Td4 55.Te8+ Rf7 56.Tel d2 57.Tdl Td3+ 58.Rg2 Rg7 59.Rf2 Rh6 60.Rg2 f5 61.gxf5 Rxh5 62.Rf2 g4 63.f6 g3+ 64.Re2 Td6 65.Rf3 1/2"
+     }
+    ]
+   },
+   {
+    "blocks": [
+     {
+      "t": "img",
+      "src": "/lecons/00406.gif"
+     },
+     {
+      "t": "p",
+      "x": "Partie supplémentaire n°2"
+     },
+     {
+      "t": "p",
+      "x": "DONNER - HORT Wijk aan Zee 1973"
+     },
+     {
+      "t": "p",
+      "x": "1.d4 Cf6 2.c4 e6 3.Cc3 d5 4.cxd5 exd5 5.Fg5 Fe7 6.e3 c6 7.Dc2 Cbd7 8.Fd3 0-0 9.Cf3 Te8 10.0-0 Cf8 11.Tab1 a5 12.Tfc1 Ce4 13.Fxe7 Dxe7 14.a3 Cg6 15.b4 axb4 16.axb4"
+     },
+     {
+      "t": "p",
+      "x": "Après un ordre de coups différent, on se retrouve dans la position de la partie précédente..."
+     },
+     {
+      "t": "p",
+      "x": "mais ici les Blancs ont opté pour un coup plus utile: 12.Tfc1! Maintenant, tout est prêt pour la poursuite de l'activité sur l'aile Dame!"
+     },
+     {
+      "t": "p",
+      "x": "16 ... b5?"
+     },
+     {
+      "t": "p",
+      "x": "Cherchant une solution radicale contre l'attaque de minorité, les Noirs ont bloqué l'avancée du pion \"b\" oubliant un détail... leur structure n'est pas sans faille! La partie Gligoric-Pfleger (Hague, 1966) a continué avec 16...f5 17.g3! b5 18.Ce2 Ta3 19.Cf4 Cxf4 20.exf4 conservant un petit avantage."
+     },
+     {
+      "t": "p",
+      "x": "17.Fxe4! dxe4 18.Cd2 Ff5 19.Ce2!"
+     },
+     {
+      "t": "p",
+      "x": "Le caractère de la position a changé et les faiblesses c6 et e4 donnent beaucoup de maux de tête aux Noirs. De plus, une éventuelle percée d4-d5 est un danger permanent."
+     },
+     {
+      "t": "p",
+      "x": "19...Fd7 20.Cb3! h5"
+     },
+     {
+      "t": "p",
+      "x": "Si 20...Dxb4?? 21.Cc5 perd une pièce."
+     },
+     {
+      "t": "p",
+      "x": "21.Cc5 h4 22.Cxd7 Dxd7 23.h3!"
+     },
+     {
+      "t": "p",
+      "x": "Imprudent est 23.Dxc6?! Dg1 24.Dc2 h3 avec un très bon jeu sur les cases blanches affaiblies!"
+     },
+     {
+      "t": "p",
+      "x": "23...Te6 24.Ta1!"
+     },
+     {
+      "t": "p",
+      "x": "Les Noirs ne peuvent plus éviter l'infiltration des Blancs chez eux par la colonne \"a\". 24...Txa1 25.Txa1 Dd5 26.Ta8+ Rh7 27.Dc5 Dxc5 28.bxc5!"
+     },
+     {
+      "t": "p",
+      "x": "Avec une structure défavorable, les Noirs sont condamnés à un rôle...passif !"
+     },
+     {
+      "t": "p",
+      "x": "28...f5 29.Rf1"
+     },
+     {
+      "t": "p",
+      "x": "Le transfert du Roi vers l'aile Dame va rapidement permettre les gains matériels. 29...Te7 30.Re1 Td7 31.Rd2 Rh6 32.Rc2 Rg5 33.Ta6 Tc7 34.Rb3 f4 35.Cc3! Rf5 36.d5"
+     },
+     {
+      "t": "p",
+      "x": "Une percée bien calculée"
+     },
+     {
+      "t": "p",
+      "x": "36...cxd5 37.Cxb5! Tb7"
+     },
+     {
+      "t": "p",
+      "x": "Le pion est empoisonné 37...Txc5? 38.Cd4+ Rg5 (38...Re5 39.Te6#) 39.Ce6+ 38.Tb6 Txb6 39.cxb6 Cf8 40.Cd4+ Re5 41.b7 Cd7 42.Rc3 Cb8 43.exf4+ Rxf4 44.Rb4 e3 45.fxe3+ Rg3 46.Rc5 Cd7+ 47.Rxd5 Rxg2 48.Cc6 1-0"
+     }
+    ]
+   }
+  ],
+  "excerpt": "En 1923, lors du grand tournoi de Karlsbad, plusieurs participants évitèrent la variante Cambridge-Springs… et les commentateurs baptisèrent cette structure.",
+  "theme": "La structure Karlsbad"
+ },
+ {
+  "slug": "est-indienne-symetrique",
+  "title": "Structure Est-Indienne symétrique",
+  "cover": "/lecons/cover-501.jpg",
+  "pages": [
+   {
+    "blocks": [
+     {
+      "t": "img",
+      "src": "/lecons/00501.gif"
+     },
+     {
+      "t": "p",
+      "x": "La symétrie peut être bien employée contre une variante de l'Est-Indienne ou contre l'Anglaise. Cette approche représente une arme adaptée pour le type de joueur qui n'hésite pas, si l'occasion se présente, à entrer dans une finale. C'est aussi une bonne stratégie contre les joueurs agressifs, passionnés par de longues variantes menant vers un jeu hypercomplexe et des attaques féroces."
+     },
+     {
+      "t": "p",
+      "x": "KARPOV - POLGAR,Z Mélodie Amber, 1994"
+     },
+     {
+      "t": "p",
+      "x": "1.d4 Cf6 2.c4 g6 3.g3 Fg7 4.Fg2 c5 5.Cf3 0-0 6.0-0 d6 7.Cc3 Cc6 8.dxc5"
+     },
+     {
+      "t": "p",
+      "x": "Les Blancs refusent de bloquer la position au centre par 8.d5 car après 8 ... Ca5 9.Cd2 a6 10. Dc2 Tb8 11.b3 b5 émerge une position complexe avec des chances pour les deux côtés."
+     },
+     {
+      "t": "p",
+      "x": "8 ... dxc5"
+     },
+     {
+      "t": "p",
+      "x": "Cette position symétrique peut provenir d'un ordre de coups différents par une Anglaise : l.c4 c5 2.Cc3 Cc6 3.g3 g6 4.Fg2 Fg7 5.Cf3 Cf6 6.0-0 0-0 7.d4 d6 8.dxc5 dxc5 L'intérêt de jouer cette ligne est que les Blancs minimisent le risque de perte tout en gardant la possibilité de chercher l'avantage dans une finale confortable!"
+     },
+     {
+      "t": "p",
+      "x": "9.Fe3 Da5"
+     },
+     {
+      "t": "p",
+      "x": "Les Noirs affichent clairement la volonté de couper la symétrie et non sans raison. Après 9 ... Fe6 la pratique montre que les Blancs ont de l'initiative:"
+     },
+     {
+      "t": "p",
+      "x": "A) 10. Fxc5 Da5 (10 ... Fxc4 11.Cd4) 11.Fa3 (11.Fe3?! Fxc4 12.Cd4 Dh5!) 11 ... Fxc4 12.Cd4 Cxd4 13.Dxd4 Tac8 14.Df4!? g5? (14... Ch5! 15.De3 Fxc3!=) 15.De3 Tc7 16.Tadl Te8 17.Td4! b5 18.Dxg5 h6 19.Dd2 b4 20.Cbl Cd5 21.Tg4! h5 22.Tg5! Tc5 23.b3!+- Spassky, B-Tal, M / Moscou1961;"
+     },
+     {
+      "t": "p",
+      "x": "B) 10. Da4 Cd4 11.Tad1 Fd7 12.Da3 Cc2 13.Dxc5 b6 14.Dg5 h6 15.Df4 g5 16.De5 Tc8 17.Cd5 Cxd5 18.Dxd5 Cxe3 19.fxe3 Fc6 20.Dxd8 Tfxd8 21.b3 b5! Petrossian,A Morozevich,A / Moscou 1991"
+     },
+     {
+      "t": "p",
+      "x": "10.Db3"
+     },
+     {
+      "t": "p",
+      "x": "Une case naturelle pour la Dame!"
+     }
+    ]
+   },
+   {
+    "blocks": [
+     {
+      "t": "img",
+      "src": "/lecons/00502.gif"
+     },
+     {
+      "t": "p",
+      "x": "10 ... Fd7"
+     },
+     {
+      "t": "p",
+      "x": "Une tentative de perturber les Blancs qui n'a pas très bien marché : 10 ... Cg4 1 l.Ff4 e5 12.Fd2 f5 13.e4 Cf6 14.Tfel Dd8 15.Tadl fxe4 16.Cxe4 Cxe4 17.Txe4 Df6 18.Fg5 Df5 19.De3 Fe6 20.g4 Df7 21.Fh4 h6 22.b3 b6 23.h3 Tae8 24.Fg3± Epishin,V-Spraggett, K/Manresa 1995"
+     },
+     {
+      "t": "p",
+      "x": "11.Tad1!"
+     },
+     {
+      "t": "p",
+      "x": "Le pion b7 est empoisonné et les Blancs se dépêchent de prendre de la colonne \"d\", visant la case d5 et surveillant la case d4!"
+     },
+     {
+      "t": "p",
+      "x": "11 ... Tad8 12.Cd5! b6 13.Fd2 Da6 14.Fc3!"
+     },
+     {
+      "t": "p",
+      "x": "Le Fou de cases noires est transféré sur une place bien plus active!"
+     },
+     {
+      "t": "p",
+      "x": "14 ... Cxd5 15.cxd5 Ca5 16.Dc2 Fxc3 17.Dxc3!"
+     },
+     {
+      "t": "p",
+      "x": "17.bxc3 aurait affaibli la case c4!"
+     },
+     {
+      "t": "p",
+      "x": "17 ... Dxe2 18.Tfel Dc4 19.De3!"
+     },
+     {
+      "t": "p",
+      "x": "C'est beaucoup plus fort que 19.Dxc4? Cxc4 20.b3 Cd6 21.Txe7 Tfe8 ce qui permettrait aux Noirs de garder l'équilibre, notamment grâce à l'excellente position de blocus de leur Cavalier. Après le coup joué, le Cavalier noir reste hors jeu, et la Dame blanche menace le Roi noir."
+     },
+     {
+      "t": "p",
+      "x": "19 ... Dg4"
+     },
+     {
+      "t": "p",
+      "x": "Les pions sont intouchables: 19 ... Dxa2? 20.Dh6! Dxb2 21.Te5! Tfe8 (21 ... f6 22.Txe7+) 22.Cg5+"
+     },
+     {
+      "t": "p",
+      "x": "20.Dxe7 Tfe8 21 Df6 Df5 22.Dh4 Rg7 23.b4!"
+     },
+     {
+      "t": "p",
+      "x": "L'assaut ayant pour but de regagner le contrôle de la case d4!"
+     },
+     {
+      "t": "p",
+      "x": "23 ... cxb4 24.Dxb4 Txe1 + 25.Txe1! Te8"
+     },
+     {
+      "t": "p",
+      "x": "Le pion d5 est défenu indirectement : 25 ... Dxd5? 26.Ce5 De6 (26 ... Dc5 27.Dxc5 bxc5 28.Td1+-; 26 ... Db5 27.De7!+-) 27.Cxf7! Dxf7 28.Te7+-"
+     },
+     {
+      "t": "p",
+      "x": "26.Dc3+ Df6 27.Ce5! Rg8 28.Dc7 Fb5 29.Te3!"
+     }
+    ]
+   },
+   {
+    "blocks": [
+     {
+      "t": "img",
+      "src": "/lecons/00503.gif"
+     },
+     {
+      "t": "p",
+      "x": "Une importante prophylaxie: la Tour blanche doit être protégée!"
+     },
+     {
+      "t": "p",
+      "x": "29...De7 30.d6! Dxc7 31.dxc7 Tc8 32.Tc3 Fc4"
+     },
+     {
+      "t": "p",
+      "x": "Un dernier espoir! Les autres coups perdent immédiatement : 32...f6 33.Fd5+ Rf8 34. Fe6+-; 32 ... Rf8 33.Fh3 f5 34.g4!+-"
+     },
+     {
+      "t": "p",
+      "x": "33.Cc6!"
+     },
+     {
+      "t": "p",
+      "x": "33. Cxc4? Txc7 34. Ff1 b5"
+     },
+     {
+      "t": "p",
+      "x": "33 ...Cxc6 34.Txc4! Ca5 35.Tc3"
+     },
+     {
+      "t": "p",
+      "x": "Effectivement, le Cavalier ne s'en sortira pas!"
+     },
+     {
+      "t": "p",
+      "x": "35 ...a6 36.a4 b5 37.axb5 axb5 38.Tc5! Rg7 39.Fd5! Rf6 40.Txb5 Txc7 41.Txa5 h5 42.Tb5 Rg7 43.Tb7 Txb7 44.Fxb7 h4 45.g4 Rf6 46.Rg2 Re5 47.Rf3 g5 48.Fc8 Rd5"
+     },
+     {
+      "t": "p",
+      "x": "1-0"
+     },
+     {
+      "t": "p",
+      "x": "La structure symétrique comporte certaines limites pour les Noirs car ils ne peuvent pas s'engager si facilement dans les attaques en poussant leurs pions sans s'affaiblir de trop (ce que nous montre la partie supplémentaire n°1). D'autre part, un jeu timide peut rapidement mener à une position passive (voir la partie supplémentaire n°2)."
+     },
+     {
+      "t": "p",
+      "x": "Partie supplémentaire n°1"
+     },
+     {
+      "t": "p",
+      "x": "AGDESTEIN -SIGURJONSSON Gausdal, 1987"
+     },
+     {
+      "t": "p",
+      "x": "1.d4 Cf6 2.Cf3 g6 3.g3 Fg7 4.Fg2 0-0 5.c4 d6 6.0-0 c5 7.Cc3 Cc6 8.dxc5 dxc5 9.Ff4 Ce simple coup de développement est plus fort qu'il n'y parait au premier regard. Les Blancs se préparent à accroître la pression de leurs Fous sur l'aile Dame noire après une éventuel échange du Cf3 pour le Cc6."
+     },
+     {
+      "t": "p",
+      "x": "9 ... Ch5"
+     },
+     {
+      "t": "p",
+      "x": "Les Noirs s'opposent au plan ci-dessus. Une autre suite est 9 ... Fe6."
+     },
+     {
+      "t": "p",
+      "x": "10. Fe3 Cd4 11.Tc1!"
+     },
+     {
+      "t": "p",
+      "x": "Eviter l'échange par 11.Cd2 avait donné un jeu intéressant: 11 ... Fg4 12.h3 Fe6 13.Cb3l Cxb3 14.Dxb3 Dc7 15. Db5! Tac8 16. Dxb7 Dxb7 17.Fxb7 Tb8 18.Fg2 Txb2 19.g4 Cf6 20.Fxc5 Tc8 21.Fxe7 Txc4 22.Tfd1! Tb8 23.g5 Ch5 24.Cd5 Stangl,M-Polgar,Z/WchJ Tunja 1989; Solide est 1l.Dd2! Fg4 12.Tfdl Fxf3 13.Fxf3 Cxf3+ 14.exf3 b6 15.De2 Dc7 16.Td3 Arkell,K Hebden,M/Barnsdale YM 1989"
+     },
+     {
+      "t": "p",
+      "x": "11 ... e5"
+     }
+    ]
+   },
+   {
+    "blocks": [
+     {
+      "t": "img",
+      "src": "/lecons/00504.gif"
+     },
+     {
+      "t": "p",
+      "x": "Une sérieuse concession des cases blanches!"
+     },
+     {
+      "t": "p",
+      "x": "12.Cd2! f5 13.Cb3!"
+     },
+     {
+      "t": "p",
+      "x": "Touche le point sensible!"
+     },
+     {
+      "t": "p",
+      "x": "13 ... f4"
+     },
+     {
+      "t": "p",
+      "x": "Pour un défenseur de sang-froid, pareille action ne fait pas trop peur!"
+     },
+     {
+      "t": "p",
+      "x": "14.Fxd4 cxd4 15.Ce4 Fh6 16.Cbd2!"
+     },
+     {
+      "t": "p",
+      "x": "Les Blancs sont bien établis sur les cases blanches!"
+     },
+     {
+      "t": "p",
+      "x": "16... Ff5 17.c5!"
+     },
+     {
+      "t": "p",
+      "x": "C'est aux Blancs de dire un mot!"
+     },
+     {
+      "t": "p",
+      "x": "17... Rh8 18.Tc4! fxg3 19.hxg3 De7 20.Ta4"
+     },
+     {
+      "t": "p",
+      "x": "Paradoxalement, la Tour se sent très bien sur l'aile Dame car elle peut être utile aussi sur la troisième rangée."
+     },
+     {
+      "t": "p",
+      "x": "20 ... Fd7 21.Ta3 Fc6 22.b4 a6 23.Cc4 De6 24.Dc2 Tad8 25.Rh2! Cg7 26.Ced6!"
+     },
+     {
+      "t": "p",
+      "x": "Après l'échange des Fous, les cases blanches deviendront les vrais trous!"
+     },
+     {
+      "t": "p",
+      "x": "26 ... Cf5 27.Fxc6 bxc6 28.De4! Ce3"
+     },
+     {
+      "t": "p",
+      "x": "Cette irruption ne peut pas changer grand-chose."
+     },
+     {
+      "t": "p",
+      "x": "29.Cxe3 dxe3 30.f3 Fg5 31.Txa6 De7 32.Rg2 Tf4 33.Dxe3 1-0"
+     },
+     {
+      "t": "p",
+      "x": "Partie supplémentaire n°2"
+     },
+     {
+      "t": "p",
+      "x": "RIBLI - NIKOLAICZUK Dortmund, 1986"
+     },
+     {
+      "t": "p",
+      "x": "1.Cf3 Cf6 2.c4 c5 3.g3 g6 4.Fg2 Fg7 5.Cc3 0-0 6.d4 Cc6 7.0-0 d6 8.dxc5 dxc5 9.Ff4 Fe6 10.Ce5!"
+     },
+     {
+      "t": "p",
+      "x": "Les Blancs veulent dégager la diagonale h1-a8 afin de profiter pleinement de la force de leurs Fous."
+     },
+     {
+      "t": "p",
+      "x": "10 ... Ca5"
+     },
+     {
+      "t": "p",
+      "x": "L'échange est clairement favorable aux Blancs et les Noirs cherchent les complications. Si 10 ... Cxe5 11.Fxe5 Dxd1 12.Taxd1 Fxc4 13. Fxb7 Tad8 14.b3"
+     }
+    ]
+   },
+   {
+    "blocks": [
+     {
+      "t": "img",
+      "src": "/lecons/00505.gif"
+     },
+     {
+      "t": "p",
+      "x": "11.Da4!"
+     },
+     {
+      "t": "p",
+      "x": "11.Dc2!? est attirant : 11 ... Ch5 12.Tad1"
+     },
+     {
+      "t": "p",
+      "x": "A) 12 ... Dc8?! 13.Cd5! Fxd5 (13 ... Te8!?) 14.cxd5 Cxf4 (14 ... g5 15.Fd2 Fxe5 16.Fxa5±) 15.gxf4 b6 16.d6 exd6 17.Txd6 (17.Fxa8 dxe5 18.Fg2 exf4 17 ... Fxe5 (17 ... Tb8 18.Cd7 Td8 19.Tfd1 ±)18.fxe5 Dg4 19.h3 Dc4 20.Dd2 Tae8 21 b3 Dh4 22.f4± Tukmakov,V-Bagaturov,G Erevan op 1996;"
+     },
+     {
+      "t": "p",
+      "x": "B) Mais les Noirs ont une meilleure suite : 12 ... De8!? 13.Cd5 Cxf4 14.gxf4 Tc8 15.Td2 f6 16.Cf3 Cc6 17.Tfd1 Rh8 18.Rh1 b6 19.b3 Fg4!= Tukmakov,V-Spraggett, K/Bern/1995; Dans le cas de 11.Cd3 Ch5 12.Cxc5 le combat est aiguë: 12 ... Cxf4 13.gxf4 Fxc4 14.Tc1 Dc7 15.Cxb7 Dxf4 A) 16.Cxa5 Fe5 17.Te1 Dxh2+ 18.Rf1 Fe6! (18...Tad8? 19.Cxc4! Txd1 20.Texd1±) 19.Da4 Fh3-+; B) 16.e3 De5 17.Cxa5 Dxa5 18.Fxa8 Fxf1 19.Dd5 Dxd5 20.Cxd5 Txa8 21.Rxf1 Fxb2 22.Cxe7+ Rf8 23.Tc8+= Tal,M-Kasparov,G Moscou 1987"
+     },
+     {
+      "t": "p",
+      "x": "11 ... Ce8"
+     },
+     {
+      "t": "p",
+      "x": "Joué avec l'intention de transférer le Cavalier en d6. Une autre possibilité est 11 ... Cd7 12.Cxd7 Fxd7 13. Dc2 Cc6 14.Tad1 Cd4 15. Dd2 Fc6 16.Fh6! Fxg2 17.Rxg2 Dd7 18.Fxg7 Rxg7 19.e3 Dc6+ 20.f3 Cf5 21.Rf2 Cd6 22.Cd5!± Schwartzman,G Sutovskij,E/Groningen op 1993"
+     },
+     {
+      "t": "p",
+      "x": "12.Ce4! Db6"
+     },
+     {
+      "t": "p",
+      "x": "12 ... Fxe5 13.Fxe5 Cxc4 14.Fc3 les Blancs ont une très belle compensation pour le pion."
+     },
+     {
+      "t": "p",
+      "x": "13.Fd2! Fxe5 14.Fxa5 Dxb2 15.Cxc5 Fc8 16.e3!"
+     },
+     {
+      "t": "p",
+      "x": "Les Noirs n'arrivent plus à terminer leur développement."
+     },
+     {
+      "t": "p",
+      "x": "16 ...Tb8 17.Tab1 De2 18.Tfe1 Dh5 19.Cd3! Ff6 20.Cf4 De5 21.Cd5 De6 22.Fb4 a6 23.Da3"
+     },
+     {
+      "t": "p",
+      "x": "1-0"
+     }
+    ]
+   }
+  ],
+  "excerpt": "La symétrie, arme adaptée contre l'Est-Indienne ou l'Anglaise : une bonne stratégie face aux joueurs agressifs, passionnés de variantes hypercomplexes.",
+  "theme": "La structure Est-Indienne"
+ },
+ {
+  "slug": "structure-boleslavsky",
+  "title": "Structure Boleslavsky",
+  "cover": "/lecons/cover-601.jpg",
+  "pages": [
+   {
+    "blocks": [
+     {
+      "t": "img",
+      "src": "/lecons/00601.gif"
+     },
+     {
+      "t": "p",
+      "x": "Il fallait une forte personnalité et une conviction profonde pour pouvoir commencer à pratiquer un système si original à l'époque où les Grands Maîtres se souciaient de la moindre faiblesse! Que font les Noirs? Ils affaiblissent volontairement, très tôt dans l'ouverture, leur structure en ne jouant pas e7-e6 mais e7-e5, créant ainsi le trou irrémédiable en d5! Mais Isaac Boleslavsky croyait fermement que les pièces noires, dans cette nouvelle condition, pouvaient largement compenser, par leur activité, toute tentative des Blancs de les dominer."
+     },
+     {
+      "t": "p",
+      "x": "KARPOV - MECKING 1972"
+     },
+     {
+      "t": "p",
+      "x": "1.e4 c5 2.Cf3 d6 3.d4 cxd4 4.Cxd4 Cf6 5.Cc3 a6 6.Fe2 e5"
+     },
+     {
+      "t": "p",
+      "x": "Ce coup caractérise la structure Boleslavsky. Il est clair que la case d5 est affaiblie et qu'elle ne peut être défendue que par les pièces, mais les Noirs ont d'autres atouts entre les mains. Le pion e5 contrôle les cases d4 et f4 limitant ainsi les possibilités de manoeuvre des pièces blanches. Le Cd4 doit abandonner sa position centrale tandis que les pièces noires se développent très vite, protégées par la formation d6-e5."
+     },
+     {
+      "t": "p",
+      "x": "7.Cb3"
+     },
+     {
+      "t": "p",
+      "x": "Meilleure place pour le Cavalier."
+     },
+     {
+      "t": "p",
+      "x": "7 ... Fe6 Une autre suite est 7 ... Fe7 8.0-0 et maintenant"
+     },
+     {
+      "t": "p",
+      "x": "A) 8 ... 0-0"
+     },
+     {
+      "t": "p",
+      "x": "A1) 9.Fg5 une méthode récente 9...Fe6 10.f4 exf4 11.Fxf4 Cc6 12.Rh1 d5 13.e5 Ce4 (13 ... Cd7 14.Cxd5 Cdxe5 15.c4 Fg5 16.Cc5 Fxf4 17.Cxe6 fxe6 18.Cxf4 Dxd1! 19.Taxd1 Tf6! 20.Rg1 Taf8 21.Ch5 Txf1+ 22.Fxf1 g6 23.Cg3 Tf4!= (PsakhisGurevich,New York 1992) 14.Fd3 f5 15.exf6 Fxf6 16.Cxe4 dxe4 17. Fxe4!? Fc4?! (17 ... Dxd1!?) 18.Fd6! Fxf1 19. Dd5+ Rh8 20. Dh5 g6 21. Fxg6 Fxg2+ 22.Rxg2 Dd7 23.Cc5 Dg7 24.Fxf8 Dxg6+ 25.Dxg6 hxg6 26.Fd6 avec des complications (Karpov-Anand, Buenos Aires, 1994);"
+     },
+     {
+      "t": "p",
+      "x": "A2) 9.Fe3 Dc7 10.Dd2 Fe6 11.f4 exf4 12.Txf4 Cbd7? (l2 ... Cc6!) 13.Cd4! Ce5 14.Cf5 Tac8 15.Taf1 Tfe8 16.Fd4 Ff8 17.Fd3 Cfd7 18.Th4 Cg6 19.Th3 Cde5 20.Dd1 b5 21. Dh5 h6 22.Tg3 Rh7 23.Cd5 Fxd5 24.exd5 Cxd3 25.cxd3 Db7 26.Rh1 Tc2 27.Ce3 Td2 28.Cg4 Dd7 29.h4 De7 30.Te3 Dd7 31.Dxh6+! Rg8 32.Txe8 1-0 ( Geller-Polugaevsky, Moscou 1961);"
+     },
+     {
+      "t": "p",
+      "x": "B) 8...Fe6 9.f4 Dc7 10.a4 Cbd7 11.Rh1 0-0 12.Fe3 exf4 13.Txf4 Ce5 14.a5 Tfe8 15.Fb6 Dd7 16.Ta4! Tac8 17.Td4 Dc6 18.Td2 Fxb3 19.cxb3 Cfd7 20.Fg1 Fg5 21.Txd6 Fxf4 22.Txc6 Txc6 23.b4! Cf6 24.b5 Tce6 25.bxa6 bxa6 26.g3 Fg5 27.h4 Fh6 28.Fb6 Ced7 29.Fc4 Te5 30.Db3 Tb8 31.Fxf7+ Rh8 32.Dc4 Fd2 33.Fc7! Tc5 34.Dxc5 Cxc5 35.Fxb8 Fxc3 36.bxc3 Cfxe4 37.c4 Cd7 38.Fc7 g6 39.Fe6! Cec5 40.Fxd7 Cxd7 41.Fd6 1-0 (Karpov-Polugaevsky, Moscou 1974)."
+     }
+    ]
+   },
+   {
+    "blocks": [
+     {
+      "t": "img",
+      "src": "/lecons/00602.gif"
+     },
+     {
+      "t": "p",
+      "x": "Le coup joué dans la partie crée la menace positionnelle d6-d5 qui doit absolument être empêchée si les Blancs veulent compter sur un avantage!"
+     },
+     {
+      "t": "p",
+      "x": "8.f4 Dc7 9.a4"
+     },
+     {
+      "t": "p",
+      "x": "Il est utile de prévenir l'expansion des Noirs sur l'aile Dame."
+     },
+     {
+      "t": "p",
+      "x": "9 ... Cc6?!"
+     },
+     {
+      "t": "p",
+      "x": "Les Noirs ne veulent pas permettre un éventuel blocus des pions par a4-a5. Habituel est 9 ... Cbd7 ou 9 ... Fe7"
+     },
+     {
+      "t": "p",
+      "x": "10.f5!"
+     },
+     {
+      "t": "p",
+      "x": "Force les échanges favorables!"
+     },
+     {
+      "t": "p",
+      "x": "10 ... Fxb3"
+     },
+     {
+      "t": "p",
+      "x": "Si 10 ... Fd7 11.Fg5! Cb4 12.Fxf6 gxf6 13.Fh5! serait très gênant!"
+     },
+     {
+      "t": "p",
+      "x": "11.cxb3"
+     },
+     {
+      "t": "p",
+      "x": "Le résultat des échanges est peu encourageant pour les Noirs. La disparition du Fou de cases blanches souligne la faiblesse de la case d5 tandis que celle de la case d4 est beaucoup moins exploitable."
+     },
+     {
+      "t": "p",
+      "x": "11...Db6"
+     },
+     {
+      "t": "p",
+      "x": "Les Noirs cherchent les moyens d'obtenir un peu de contre jeu. Si 11 ... h6 12.Fe3! 12.Fg5!"
+     },
+     {
+      "t": "p",
+      "x": "Une manière classique de renforcer la domination sur un point faible!"
+     },
+     {
+      "t": "p",
+      "x": "12 ... Fe7 13.Fxf6 Fxf6 14.Cd5!"
+     },
+     {
+      "t": "p",
+      "x": "Les Blancs ont bien évalué la finale!"
+     },
+     {
+      "t": "p",
+      "x": "14 ... Da5+ 15.Dd2 Dxd2+ 16.Rxd2 Fg5+ 17.Rd3 0-0 18.h4!"
+     },
+     {
+      "t": "p",
+      "x": "Le Fou est obligé de quitter sa position active!"
+     },
+     {
+      "t": "p",
+      "x": "18 ... Fd8 19.Tac1 a5"
+     },
+     {
+      "t": "p",
+      "x": "Les Blancs menaçaient b3-b4."
+     },
+     {
+      "t": "p",
+      "x": "20.Rd2!"
+     },
+     {
+      "t": "p",
+      "x": "Libère le passage pour le Fou."
+     },
+     {
+      "t": "p",
+      "x": "20 ... Tb8 21.g4 Cb4 22.Fc4! Cxd5 23.Fxd5"
+     },
+     {
+      "t": "p",
+      "x": "Le Fd5 va se montrer également très fort car il entre parfaitement dans le plan d'avancée des pions sur l'aile Roi."
+     },
+     {
+      "t": "p",
+      "x": "23 ... g5"
+     },
+     {
+      "t": "p",
+      "x": "Le dernier espoir?"
+     },
+     {
+      "t": "p",
+      "x": "24.fxg6!"
+     },
+     {
+      "t": "p",
+      "x": "Bien entendu, il ne faut pas permettre le blocus de de l'aile Roi!"
+     },
+     {
+      "t": "p",
+      "x": "24 ... hxg6 25.Rd3! Rg7 26.h5! Fb6"
+     },
+     {
+      "t": "p",
+      "x": "26 ... Fg5? 27.Tc7! est encore pire!"
+     }
+    ]
+   },
+   {
+    "blocks": [
+     {
+      "t": "img",
+      "src": "/lecons/00603.gif"
+     },
+     {
+      "t": "p",
+      "x": "27.Th3"
+     },
+     {
+      "t": "p",
+      "x": "Prépare à doubler les Tours soit sur la colonne \"h\" soit sur la colonne \"f\" !"
+     },
+     {
+      "t": "p",
+      "x": "27...Fc5 28.Tf1! f6"
+     },
+     {
+      "t": "p",
+      "x": "Pratiquement forcé en vue de la menace h5-h6!"
+     },
+     {
+      "t": "p",
+      "x": "29.hxg6 Rxg6 30.Tfh1 Tbe8 31.Th7 Rg5"
+     },
+     {
+      "t": "p",
+      "x": "La tentative d'éviter le réseau de mat après T1h5! etc. 32.Re2! Rf4 33.T1h3! Fd4"
+     },
+     {
+      "t": "p",
+      "x": "Si 33 ... Rxg4 34.Th1! Tg8 35.Fxg8 Txg8 36.Tf1!+-"
+     },
+     {
+      "t": "p",
+      "x": "34.Tg7! et le mat est imparable! 1-0"
+     },
+     {
+      "t": "p",
+      "x": "PARTIES ANNEXES"
+     },
+     {
+      "t": "p",
+      "x": "Les Blancs ont découvert d'autres idées pour combattre la structure Boleslavsky. L'une des plus intéressantes est certainement celle de Geller (partie supplémentaire n°1). La recherche du contre jeu mène souvent les Noirs à entreprendre des actions précoces ou à varier l'ordre de coups. Etudiez donc attentivement la prestation de Karpov dans la partie supplémentaire n°2!"
+     },
+     {
+      "t": "p",
+      "x": "Partie supplémentaire n°1"
+     },
+     {
+      "t": "p",
+      "x": "GELLER - PETROSSIAN Ch. URSS Riga Latvia, 1985"
+     },
+     {
+      "t": "p",
+      "x": "1.e4 c5 2.Cf3 d6 3.d4 exd4 4.Cxd4 C16 5.Cc3 a6 6.Fe2 e5 7.Cb3 Fe7 8.0-0 0-0 9.Te1"
+     },
+     {
+      "t": "p",
+      "x": "Le plan dangereux conçu par Geller vise le jeu sur l'aile Dame. Mais avant tout,il faut stabiliser le centre et préparer le saut du Cavalier en d5."
+     },
+     {
+      "t": "p",
+      "x": "9...Fe6"
+     },
+     {
+      "t": "p",
+      "x": "Geller était très efficace contre la suite 9 ... Cbd7 10.Ff1 b5 11.a4 b4 12.Cd5 Cxd5 13.exd5 a5 14.Fb5 Fg5 ou (14 ... Fa6 15.Fxd7 Dxd7 16.Cxa5 Fb7 17.Cxb7 Dxb7 18.Fd2 Tfc8 19.Te4 b3 20.Tb4 Dxd5 2l.Txb3 De4 22.a5 Txc2 23.Te3 Dc6 24.Fc3 1-0 (Geller-Kempinski,Cappelle-la-Grande 1993) 15.Fxg5 Dxg5 16.Tc1 Cf6 17.c4 bxc3 18.Txc3 Fg4 19f3 Ff5 20.Fc6 Tab8 21.Dd2 Dh4 22. Fb5 Db4 23.Td 1 Fd7 24.Fc6 Fxc6 25.dxc6 d5 26.c7 Tbc8 27.Dc2 d4 28.Tc5 Tfe8 29.Dc4 Db6 30.Tc6 Da7 31.Tcl d3+ 32.Dc5 Db7 33.Db6+- (Geller-Movsziszian, Dortmund 1992)"
+     },
+     {
+      "t": "p",
+      "x": "10.Ff1 Cbd7 11.Cd5"
+     },
+     {
+      "t": "p",
+      "x": "Le potentiel des pions blancs sur l'aile Dame est ainsi libéré!"
+     }
+    ]
+   },
+   {
+    "blocks": [
+     {
+      "t": "img",
+      "src": "/lecons/00604.gif"
+     },
+     {
+      "t": "p",
+      "x": "11 ... Cb6 12.c4 Tc8 13.Cd2 Cd7 14.Cxe7+! Dxe7 15.b3"
+     },
+     {
+      "t": "p",
+      "x": "Le pion d6 est fixé pour longtemps!"
+     },
+     {
+      "t": "p",
+      "x": "15 ... Cc5 16.Cb1!"
+     },
+     {
+      "t": "p",
+      "x": "Une position rare! Toutes les pièces blanches sont actuellement sur la première rangée, mais les Blancs sont mieux car leur structure est saine et les pièces vont rapidement prendre les positions clés."
+     },
+     {
+      "t": "p",
+      "x": "16 ... f5 17.exf5 Fxf5 18.Cc3 Tcd8 19.Fe3!"
+     },
+     {
+      "t": "p",
+      "x": "La place juste pour le Fou!"
+     },
+     {
+      "t": "p",
+      "x": "19 ... Cbd7 20.b4"
+     },
+     {
+      "t": "p",
+      "x": "Le moment d'action est venu. Par contre les Noirs n'ont pas réussi à construire du contre jeu."
+     },
+     {
+      "t": "p",
+      "x": "20 ... Ce6 21.Cd5 Df7 22.Df3"
+     },
+     {
+      "t": "p",
+      "x": "Menaçant de simplifier la position par 23.Dxf5! Dxf5 24.Ce7+ etc."
+     },
+     {
+      "t": "p",
+      "x": "22 ... Tde8 23.Tad1 Cb8 24.b5!"
+     },
+     {
+      "t": "p",
+      "x": "Empêchant la manoeuvre Cb8-c6-d4!"
+     },
+     {
+      "t": "p",
+      "x": "24 ... Cd7 25.Cc3 e4 26.Dg3 Ce5 27.Txd6 Cd3 28.Td1 Td8 29.Cxe4!"
+     },
+     {
+      "t": "p",
+      "x": "Simple transposition dans une position dans laquelle la Dame noire va se trouver impuissante contre les pièces blanches."
+     },
+     {
+      "t": "p",
+      "x": "29 ... Fxe4 30.Fxd3 Txd6 31.Dxd6 Td8 32.Fxe4 Txd6 33.Txd6 Df6 34.g3! Rf8"
+     },
+     {
+      "t": "p",
+      "x": "Les pièces noires sont très mal placées et la perte du matériel est imminente. Si 34 ... Da1+ 35.Rg2 Cf8 36.Fd5+ Rh8 37.Td8+-"
+     },
+     {
+      "t": "p",
+      "x": "35.Fd5 Da1+ 36.Rg2 Cc7 37.Td8+!"
+     },
+     {
+      "t": "p",
+      "x": "Curieuse image! Les Noirs sont mat ou bien ils perdent la Dame! 1-0"
+     },
+     {
+      "t": "p",
+      "x": "Partie supplémentaire n°2"
+     },
+     {
+      "t": "p",
+      "x": "KARPOV - GEORGAZDE Moscou, 1983"
+     },
+     {
+      "t": "p",
+      "x": "1.e4 c5 2.Cf3 d6 3.d4 exd4 4.Cxd4 C16 S.Cc3 a6 6.Fe2 e5 7.Cb3 Fe7 8.0-0 0-0 9.Fe3 Dc7"
+     }
+    ]
+   },
+   {
+    "blocks": [
+     {
+      "t": "img",
+      "src": "/lecons/00605.gif"
+     },
+     {
+      "t": "p",
+      "x": "L'utilisation de la colonne \"c\" après 9 ... Fe6 peut être contrée par 10.Dd2 Cbd7 11.a4 Tc8 12.a5 Dc7 13.Tfc1! (Karpov-Portisch, London 1982)"
+     },
+     {
+      "t": "p",
+      "x": "10. Dd2 Te8"
+     },
+     {
+      "t": "p",
+      "x": "Une idée maligne! Les Noirs veulent d'abord en savoir un peu plus sur les plans des Blancs afin de pouvoir s'adapter."
+     },
+     {
+      "t": "p",
+      "x": "11.a4 b6"
+     },
+     {
+      "t": "p",
+      "x": "Ne permet pas aux Blancs de prendre l'espace sur l'aile Dame."
+     },
+     {
+      "t": "p",
+      "x": "12.Ff3!"
+     },
+     {
+      "t": "p",
+      "x": "Le début d'un plan profond. La case c6 étant affaiblie, les Blancs préparent le saut du Cavaler en d5, ce qui va donner, après l'échange en d5 plus ou moins forcé, de créer une éventuelle base pour l'une de leurs pièces (de préférence le Cavalier) en c6!"
+     },
+     {
+      "t": "p",
+      "x": "12 ... Fe6 13.Cc1!"
+     },
+     {
+      "t": "p",
+      "x": "Le Cavalier se dirige vers la case b4 d'où il peut viser les cases d5 et c6!"
+     },
+     {
+      "t": "p",
+      "x": "13 ... Cc6 14.Cd5! Fxd5 15.exd5 Ca5 16. b3!"
+     },
+     {
+      "t": "p",
+      "x": "Avant tout, il faut stabiliser la position!"
+     },
+     {
+      "t": "p",
+      "x": "16 ... Tec8 17.Ta2! Cb7 18.Td1!"
+     },
+     {
+      "t": "p",
+      "x": "Série de coups avec le but de renforcer ou surprotéger les points essentiels."
+     },
+     {
+      "t": "p",
+      "x": "18 ... Cc5 19.De1 Db7 20.g3! Dd7"
+     },
+     {
+      "t": "p",
+      "x": "La pression sur le pion d5 s'est montrée illusoire. Si 20 ... e4? 21.Fg2 Cxd5 22.Fxc5 Txc5 23.Fxe4+-"
+     },
+     {
+      "t": "p",
+      "x": "2l.Fg2 h6"
+     },
+     {
+      "t": "p",
+      "x": "Les Noirs ne se rendent pas compte du danger!"
+     },
+     {
+      "t": "p",
+      "x": "22.a5! b5 23.Fxc5! Txc5 24.Cd3 Tcc8 25.Cb4"
+     },
+     {
+      "t": "p",
+      "x": "Après un long chemin, le Cavalier va arriver sur la destination prévue dans le plan au 12ème coup!"
+     },
+     {
+      "t": "p",
+      "x": "25 ... Te8 26.Cc6 Ff8 27.De2! e4 28.c4 bxc4 29.Dxc4 Df5 30.Te2 h5 31.Tde1!"
+     },
+     {
+      "t": "p",
+      "x": "Le pion e4 est condamné, mais peut-on prendre le pion d5?"
+     },
+     {
+      "t": "p",
+      "x": "31 ... Dxd5? 32.Dxd5 Cxd5 33.Fxe4 Cc7"
+     },
+     {
+      "t": "p",
+      "x": "33...Cf6 34.Ce7+ Fxe7 35.Fxa8+-"
+     },
+     {
+      "t": "p",
+      "x": "34.Ce7+ Txe7 35.Fxa8 Txe2 36.Txe2 Cxa8 37.Tc2! 1-0"
+     }
+    ]
+   }
+  ],
+  "excerpt": "Affaiblir volontairement sa structure très tôt avec …e5 et créer le trou en d5 : Isaac Boleslavsky croyait que l'activité des pièces noires compensait largement.",
+  "theme": "La structure Boleslavsky"
+ },
+ {
+  "slug": "est-indienne-dynamique",
+  "title": "Structure Est-Indienne dynamique",
+  "cover": "/lecons/cover-701.jpg",
+  "pages": [
+   {
+    "blocks": [
+     {
+      "t": "img",
+      "src": "/lecons/00701.gif"
+     },
+     {
+      "t": "p",
+      "x": "Dans le cas où les Noirs répondent à la tension du centre par l'échange en d4, on rencontre une structure typique avec un pion \"faible\" en d6. Cette faiblesse est relativement difficile à exploiter, car les pièces noires gagnent en activité - ce que la stratégie des Blancs doit prendre en compte - empêchant une éventuelle avancée d6-d5."
+     },
+     {
+      "t": "p",
+      "x": "BOTVINNIK - BONDAREVSKY Moscou,1945"
+     },
+     {
+      "t": "p",
+      "x": "1.d4 C16 2.c4 d6 3.Cc3 e5 4.Cf3 Cbd7 5.g3 g6 6.Fg2 Fg7 7.0-0"
+     },
+     {
+      "t": "p",
+      "x": "Les Blancs sont toujours heureux de garder le plus longtemps possible la tension au centre, afin que les Noirs aient plus de difficulté à choisir un plan adapté."
+     },
+     {
+      "t": "p",
+      "x": "7...0-0 8.e4 c6"
+     },
+     {
+      "t": "p",
+      "x": "Cette structure flexible assure un très bon contrôle des cases centrales."
+     },
+     {
+      "t": "p",
+      "x": "9.b3"
+     },
+     {
+      "t": "p",
+      "x": "Les Blancs affichent leurs intentions stratégiques, mais préférable est 9.h3 en attendant le choix des Noirs."
+     },
+     {
+      "t": "p",
+      "x": "9...exd4"
+     },
+     {
+      "t": "p",
+      "x": "Après cette prise, le caractère stratégique de la position sera défini."
+     },
+     {
+      "t": "p",
+      "x": "10...Cxd4"
+     },
+     {
+      "t": "p",
+      "x": "Faisons un premier bilan. Les Noirs ont abandonné le contrôle de la case d4, créant en même temps dans leur camp le pion faible en d6. Par contre, leurs Cavaliers obtiennent les cases e5 et c5, la Tour la possibilité d'exercer - de pair avec les Cavaliers - la pression sur le pion e4, et le Fg7 \"sa diagonale\" a1 -h8."
+     },
+     {
+      "t": "p",
+      "x": "10...Te8 11.Fb2 Cc5 12.Dc2 Cg4"
+     },
+     {
+      "t": "p",
+      "x": "Les Noirs n'ont pas résisté à la tentation d'occuper immédiatement les places dominantes pour les Cavaliers, cherchant ainsi le jeu actif. Plus prudent est 12...a5, assurant la position du Cc5. 13.Tad1 Dg5 Trop optimiste! Remarquez bien que ce genre de coup n'est pas fondé sur les demandes stratégiques de la position mais simplement sur la volonté de provoquer la confusion chez l'adversaire."
+     },
+     {
+      "t": "p",
+      "x": "14.h3! Ch6"
+     },
+     {
+      "t": "p",
+      "x": "Piètre position pour le Cavalier!"
+     },
+     {
+      "t": "p",
+      "x": "15.b4! Ce6 16.Cf3!"
+     }
+    ]
+   },
+   {
+    "blocks": [
+     {
+      "t": "img",
+      "src": "/lecons/00702.gif"
+     },
+     {
+      "t": "p",
+      "x": "Bien entendu, les échanges auraient allégé le développement des Noirs."
+     },
+     {
+      "t": "p",
+      "x": "16...De7 17.Tfe1!"
+     },
+     {
+      "t": "p",
+      "x": "En ne jouant que les coups naturels, les Blancs ont repoussé les pièces noires, montrant qu'il s'agissait d'aventurisme!"
+     },
+     {
+      "t": "p",
+      "x": "17...f6"
+     },
+     {
+      "t": "p",
+      "x": "Autrement, le Ch6 restera longtemps hors jeu. 18.Rh2 Cf7 19.Ch4 Les Noirs vont bientôt perdre toutes les cases au centre."
+     },
+     {
+      "t": "p",
+      "x": "19...Cf8 20.f4 c5 21.b5 Fe6"
+     },
+     {
+      "t": "p",
+      "x": "Tombe directement sous le feu!"
+     },
+     {
+      "t": "p",
+      "x": "22.bxc6 bxc6 23.Cf5!? Db7"
+     },
+     {
+      "t": "p",
+      "x": "23...gxf5 24.exf5 Fxf5 25.Dxf5 Dxe1 26.Txe1 Txe1 27.Fxc6 est clairement meilleur pour les Blancs."
+     },
+     {
+      "t": "p",
+      "x": "24.Cxg7!"
+     },
+     {
+      "t": "p",
+      "x": "La disparition de ce Fou va faire souffrir les Noirs."
+     },
+     {
+      "t": "p",
+      "x": "24...Rxg7 25.c5!"
+     },
+     {
+      "t": "p",
+      "x": "Commence à ouvrir la voie vers le Roi noir!"
+     },
+     {
+      "t": "p",
+      "x": "25...dxc5 26.Ca4 Db4 27.Cxc5 Fc4 28.Df2!"
+     },
+     {
+      "t": "p",
+      "x": "Les pièces blanches coopèrent parfaitement."
+     },
+     {
+      "t": "p",
+      "x": "28...Tab8 29.Fa1 Ted8 30.e5!"
+     },
+     {
+      "t": "p",
+      "x": "Le signe d'attaque!"
+     },
+     {
+      "t": "p",
+      "x": "30...Txd1 31.Txd1 Tb5 32.Cd7! Da4 33.exf6+ Rg8 34.Td2 Tb1"
+     },
+     {
+      "t": "p",
+      "x": "34...Cxd7 35.Txd7 Dxa2 36.Da7! Db1 37.Td8+! mène au mat!"
+     },
+     {
+      "t": "p",
+      "x": "35.Cxf8 Txal 36.Cd7 Db4 37.Tb2 Txa2 38.De3!"
+     },
+     {
+      "t": "p",
+      "x": "Les Noirs ne peuvent plus empêcher l'infiltration de la Dame blanche vers le Roi noir. 38...Cd6 39.De7 Ff7 40.Df8# 1-0"
+     }
+    ]
+   },
+   {
+    "blocks": [
+     {
+      "t": "img",
+      "src": "/lecons/00703.gif"
+     },
+     {
+      "t": "p",
+      "x": "PARTIES SUPPLEMENTAIRES"
+     },
+     {
+      "t": "p",
+      "x": "Un contrôle Insuffisant des cases centrales peut donner l'occasion d'effectuer un changement radical de la structure de pions et du caractère du combat, ce qui impose aussi l'adaptation à une situation différente (voir la partie supplémentaire n°1). Parfois l'imprécision dans le développement entraîne des concessions presque invisibles résultant d'une initiative grandissante à chaque coup."
+     },
+     {
+      "t": "p",
+      "x": "Dans ce cas-là, le jeu doit être dynamisé rapidement. Sinon, la catastrophe ne se fait pas attendre ! (voir la partie supplémentaire n°2)."
+     },
+     {
+      "t": "p",
+      "x": "Partie supplémentaire n°1"
+     },
+     {
+      "t": "p",
+      "x": "GELFAND - TOPALOV , Linares, 1997"
+     },
+     {
+      "t": "p",
+      "x": "1.d4 Cf6 2.Cf3 g6 3.c4 Fg7 4.Cc3 0-0 5.e4 d6 6.Fe2 e5 7.Fe3 exd4 8.Cxd4 Te8 9.f3 En l'absence de fiancchetto, les Blancs doivent défendre le pion e4 avec le pion «f», affaiblissant légèrement les cases noires."
+     },
+     {
+      "t": "p",
+      "x": "9...c6 10.Ff2"
+     },
+     {
+      "t": "p",
+      "x": "Les Blancs anticipent l'engagement des Noirs au centre et placent le Fou en sécurité. 10...d5"
+     },
+     {
+      "t": "p",
+      "x": "L'assaut central est possible grâce à la rigidité de la structure blanche. Les Blancs ne contrôlent pas l'importante case e5!"
+     },
+     {
+      "t": "p",
+      "x": "11.exd5 cxd5 12.0-0 Cc6 13.c5"
+     },
+     {
+      "t": "p",
+      "x": "A la suite de l'assaut au centre, la structure de pions a sensiblement changé. Les Blancs tentent de consolider le blocus du pion d5, tandis que les Noirs essaient d'exploiter les facteurs dynamiques de la position: le contrôle de la colonne «e» et l'activité des pièces."
+     },
+     {
+      "t": "p",
+      "x": "13...Ch5"
+     }
+    ]
+   },
+   {
+    "blocks": [
+     {
+      "t": "img",
+      "src": "/lecons/00704.gif"
+     },
+     {
+      "t": "p",
+      "x": "La diminution de la pression blanche sur le pion d5 permet aux Noirs de démarrer, sans attendre l'action sur l'aile Roi."
+     },
+     {
+      "t": "p",
+      "x": "14.g3?"
+     },
+     {
+      "t": "p",
+      "x": "Conception inadaptée à la situation concrète! Les Blancs sous-estiment la mobilisation des pièces noires. Mieux semble 14.Dd2!"
+     },
+     {
+      "t": "p",
+      "x": "14...Fh3! 15.Te1 Dg5!"
+     },
+     {
+      "t": "p",
+      "x": "Soudainement, la position blanche est devenue inconfortable."
+     },
+     {
+      "t": "p",
+      "x": "16.Cdb5 Tad8 17.Cd6"
+     },
+     {
+      "t": "p",
+      "x": "Apparemment, les Blancs ont pris l'initiative, mais en réalité ce coup tombe sur une réponse explosive car le Cavalier blanc a abandonné le contrôle de la case d4. Indispensable était 17.Dc1!"
+     },
+     {
+      "t": "p",
+      "x": "17...Fd4!!"
+     },
+     {
+      "t": "p",
+      "x": "L'alarme sonne pour le Roi blanc!"
+     },
+     {
+      "t": "p",
+      "x": "18. Dc1"
+     },
+     {
+      "t": "p",
+      "x": "Si 18.Fxd4 Cxg3 19.Rf2 Ch1+! etc."
+     },
+     {
+      "t": "p",
+      "x": "18...Fe3 19.Fxe3 Txe3 20.Rf2 d4 21.Cd1?"
+     },
+     {
+      "t": "p",
+      "x": "Les Blancs pensent facilement résoudre le problème..."
+     },
+     {
+      "t": "p",
+      "x": "21...Txe2+! 22.Txe2 Dd5"
+     },
+     {
+      "t": "p",
+      "x": "L'attaque continue!"
+     },
+     {
+      "t": "p",
+      "x": "23.Ce4 Ce5 24.Dg5 Te8 25.Td2?"
+     },
+     {
+      "t": "p",
+      "x": "Erreur dans la défense. L'immobilité du Cd1 n'est pas facile à gérer."
+     },
+     {
+      "t": "p",
+      "x": "25...Dc4?"
+     },
+     {
+      "t": "p",
+      "x": "Les Noirs passent à côté de ..."
+     },
+     {
+      "t": "p",
+      "x": "2 5...Cg4+! 26.fxg4"
+     },
+     {
+      "t": "p",
+      "x": "(26.Rgl Dxg5 27.Cxg5 Tel#) 26...Dxe4 avec une attaque imparable."
+     },
+     {
+      "t": "p",
+      "x": "26.Cdc3 h6! 27.Dh4 dxc3 28.Td8"
+     },
+     {
+      "t": "p",
+      "x": "Une dernière tentative"
+     },
+     {
+      "t": "p",
+      "x": "28...cxb2! 29.Txe8+ Rg7 30.Td1 Dc2+ 3l.Td2 b1D"
+     },
+     {
+      "t": "p",
+      "x": "Le Roi blanc est piégé!"
+     },
+     {
+      "t": "p",
+      "x": "32.Dxh3 Dcc1 0-1"
+     }
+    ]
+   },
+   {
+    "blocks": [
+     {
+      "t": "img",
+      "src": "/lecons/00705.gif"
+     },
+     {
+      "t": "p",
+      "x": "Partie supplémentaire n°2"
+     },
+     {
+      "t": "p",
+      "x": "ZITA - BRONSTEIN Moscou-Prague, 1946"
+     },
+     {
+      "t": "p",
+      "x": "1.c4 e5 2.Cc3 C16 3.CI3 d6 4.d4 Cbd7 5.g3 g6 6.Fg2 Fg7 7.0-0 0-0 8.b3 Te8 9.Fb2 c6 10.e4 exd4 11.Cxd4 Db6"
+     },
+     {
+      "t": "p",
+      "x": "L'ordre de coups a pour but de provoquer chez les Blancs un développement moins favorable."
+     },
+     {
+      "t": "p",
+      "x": "12.Dd2"
+     },
+     {
+      "t": "p",
+      "x": "La Dame est habituellement mieux placée en c2, mais, ici, çà ne marche pas: 12.Dc2? Dxd4 13.Cd5 Dxb2 14.Dxb2 Cxd5 avec une compensation supérieure. 12...Cc5 13.Tfe1 a5"
+     },
+     {
+      "t": "p",
+      "x": "Les Noirs affichent leurs intentions agressives. L'avancée du pion \"a\" risque de perturber le fonctionnement des forces blanches."
+     },
+     {
+      "t": "p",
+      "x": "14.Tab1"
+     },
+     {
+      "t": "p",
+      "x": "Espérant que l'initiative des Noirs sera de courte durée, les Blancs renforcent les points critiques, ne rentrant pas dans les détails."
+     },
+     {
+      "t": "p",
+      "x": "14...a4 15.Fa1?"
+     },
+     {
+      "t": "p",
+      "x": "Une grosse erreur! Indispensable était 15.Dc2! coordonnant mieux les pièces. Après 15 ... Cg4 16.Cce2! Ce5 17.Ted1 les Blancs tiennent la position."
+     },
+     {
+      "t": "p",
+      "x": "15...axb3 16.axb3 Cg4"
+     },
+     {
+      "t": "p",
+      "x": "L'introduction d'une grande combinaison! Ce qui va arriver n'est peut être pas si compliqué, mais certainement très joli et \"chirurgicalement\" efficace!"
+     },
+     {
+      "t": "p",
+      "x": "17.h3"
+     },
+     {
+      "t": "p",
+      "x": "Si les Blancs pouvaient imaginer la suite, ils auraient tenté 17.Ca4 Cxa4 18.bxa4 Da6 19.Cf5!"
+     },
+     {
+      "t": "p",
+      "x": "A)19...gxf5 20.exf5 Txe1+ (20.Fxf5 21.Fxg7 Rxg7 22.Dg5+±) 21.Txe1 Fxf5 22.Dg5; B)19...Fxf5! 20.exf5 Fxa1 21.Txa1 Dxc4 22.fxg6 hxg6 23.Dxd6 avec contre jeu; C)19...Fxa1 20.Cxd6 Td8 21.Txa1"
+     },
+     {
+      "t": "p",
+      "x": "17...Txa1!"
+     },
+     {
+      "t": "p",
+      "x": "Imaginez avec quel plaisir les Noirs éliminent ce Fou! En effet, le Fa1 garde tous les fils de la position blanche et sa disparition mettra en évidence la faiblesse criante des cases noires!"
+     },
+     {
+      "t": "p",
+      "x": "18.Txa1"
+     },
+     {
+      "t": "p",
+      "x": "Le véritable cauchemar commence ici! Soutenu par la Dame et le puissant Fg7, les Cavaliers noirs vont détruire la position blanche."
+     },
+     {
+      "t": "p",
+      "x": "</table"
+     }
+    ]
+   },
+   {
+    "blocks": [
+     {
+      "t": "p",
+      "x": "STRUCTURES ASYMETRIQUES"
+     },
+     {
+      "t": "p",
+      "x": "Est-Indienne centre dynamique"
+     },
+     {
+      "t": "img",
+      "src": "/lecons/00706.gif"
+     },
+     {
+      "t": "p",
+      "x": "18...Cxf2! 19.Te3"
+     },
+     {
+      "t": "p",
+      "x": "L'audacieux Cavalier n'est pas prenable: 19.Rxf2 Cxb319.Dxf2 Cd3l-+ Si 19.Rh2 Cfd3 etc."
+     },
+     {
+      "t": "p",
+      "x": "19...Cxh3+ 20.Rh2"
+     },
+     {
+      "t": "p",
+      "x": "Après 20.Fxh3 Fxh3 le Roi blanc serait exposé."
+     },
+     {
+      "t": "p",
+      "x": "20...Cf2!"
+     },
+     {
+      "t": "p",
+      "x": "Le retour sur les lieux du crime!"
+     },
+     {
+      "t": "p",
+      "x": "21.Tf3 Ccxe4 22.Df4 Cg4+ 23.Rh1 f5"
+     },
+     {
+      "t": "p",
+      "x": "Les Noirs ont déjà ramassé suffisamment de matériel."
+     },
+     {
+      "t": "p",
+      "x": "24.Cxe4"
+     },
+     {
+      "t": "p",
+      "x": "Donne encore du matériel, mais on peut supposer que les Blancs avaient simplement décidé de réduire le nombre de \"Cavaliers monstres\"!"
+     },
+     {
+      "t": "p",
+      "x": "24...Txe4 25.Dxd6 Txd4 26.Db8 Td8 27.Ta8 Fe5 28.Da7 Db4!"
+     },
+     {
+      "t": "p",
+      "x": "La Dame noire prépare un assaut décisif."
+     },
+     {
+      "t": "p",
+      "x": "29.Da2 Df8! 30.Fh3 Dh6 0-1"
+     }
+    ]
+   }
+  ],
+  "excerpt": "Quand les Noirs répondent à la tension centrale par l'échange en d4, on rencontre une structure typique avec un pion « faible » en d6, difficile à exploiter.",
+  "theme": "Est-Indienne centre dynamique"
+ }
+]
