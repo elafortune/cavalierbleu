@@ -26,7 +26,7 @@ export default function EspaceEtudiantPage() {
       </PageHero>
 
       <section className="py-20">
-        <Container className="grid gap-6 lg:grid-cols-2">
+        <Container className="grid grid-cols-1 gap-6 lg:grid-cols-2">
           <div className="rounded-3xl border border-navy-900/10 bg-white p-8">
             <h2 className="font-serif text-2xl text-navy-900">Je suis déjà étudiant</h2>
             <ul className="mt-5 space-y-3 text-ink">
@@ -42,7 +42,7 @@ export default function EspaceEtudiantPage() {
                 </li>
               ))}
             </ul>
-            <div className="mt-6 space-y-2 text-sm">
+            <div className="mt-6 space-y-1 text-sm [&>*]:py-2.5">
               <Link href="/faq" className="block font-semibold text-brand-700 hover:underline">
                 Comment recevoir mon kit de connexion ?
               </Link>
@@ -54,7 +54,7 @@ export default function EspaceEtudiantPage() {
           <div className="rounded-3xl bg-navy-900 p-8 text-white">
             <h2 className="font-serif text-2xl">Je ne suis pas encore étudiant</h2>
             <p className="mt-3 text-white/75">« Planifiez votre apprentissage et gérez votre progression. »</p>
-            <div className="mt-6 flex flex-col gap-3 text-sm">
+            <div className="mt-6 flex flex-col text-sm [&>*]:py-2.5">
               <Link href="/cours-a-distance" className="font-semibold text-cyan-accent hover:underline">
                 Quelles sont vos solutions d&apos;entraînement ? →
               </Link>

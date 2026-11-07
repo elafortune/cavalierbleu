@@ -196,8 +196,8 @@ export function ChessPlayground({ compact = false }: { compact?: boolean }) {
   }[feedback.tone];
 
   return (
-    <div className="rounded-3xl border border-white/10 bg-navy-900/70 p-4 shadow-2xl shadow-navy-950/50 backdrop-blur sm:p-5">
-      <div className="mb-4 flex items-center justify-between gap-3">
+    <div className="rounded-3xl border border-white/10 bg-navy-900/70 p-3 shadow-2xl shadow-navy-950/50 backdrop-blur sm:p-5">
+      <div className="mb-4 flex items-center justify-between gap-2">
         <div role="tablist" aria-label="Mode de jeu" className="inline-flex rounded-full bg-white/5 p-1 text-sm">
           {(
             [
@@ -210,7 +210,7 @@ export function ChessPlayground({ compact = false }: { compact?: boolean }) {
               role="tab"
               aria-selected={mode === m}
               onClick={() => switchMode(m)}
-              className={`rounded-full px-3.5 py-1.5 transition ${
+              className={`whitespace-nowrap rounded-full px-3 py-2 transition sm:px-3.5 ${
                 mode === m ? "bg-cyan-accent font-semibold text-navy-950" : "text-white/70 hover:text-white"
               }`}
             >

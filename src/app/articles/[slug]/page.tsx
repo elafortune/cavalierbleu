@@ -38,7 +38,7 @@ async function ArticleContent({ params }: { params: PageProps<"/articles/[slug]"
       <section className="bg-hero relative overflow-hidden text-white">
         <div className="grid-pattern absolute inset-0" aria-hidden />
         <Container className="relative max-w-4xl py-16 lg:py-20">
-          <Link href={LINKS.articles} className="text-sm text-white/60 hover:text-white">
+          <Link href={LINKS.articles} className="-my-2 inline-block py-2 text-sm text-white/60 hover:text-white">
             ← Tous les articles
           </Link>
           <div className="mt-6">

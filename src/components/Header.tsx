@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { LINKS, NAV } from "@/lib/site";
 
 export function Header() {
@@ -11,7 +11,21 @@ export function Header() {
   const pathname = usePathname();
   const isActive = (href: string) => pathname === href || pathname.startsWith(href + "/");
 
+  // Menu mobile : bloque le défilement de la page et se ferme avec Échap.
+  useEffect(() => {
+    if (!open) return;
+    const prev = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    const onKey = (e: KeyboardEvent) => e.key === "Escape" && setOpen(false);
+    window.addEventListener("keydown", onKey);
+    return () => {
+      document.body.style.overflow = prev;
+      window.removeEventListener("keydown", onKey);
+    };
+  }, [open]);
+
   return (
+    <>
     <header className="sticky top-0 z-50 border-b border-white/10 bg-navy-950/85 text-white backdrop-blur-md">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between gap-4 px-4 sm:px-6 lg:h-20 lg:px-8">
         <Link href="/" className="flex items-center gap-3" onClick={() => setOpen(false)} aria-label="Accueil — Institut Le Cavalier Bleu">
@@ -72,15 +86,21 @@ export function Header() {
           </svg>
         </button>
       </div>
+    </header>
 
       {open && (
-        <nav id="mobile-nav" className="max-h-[calc(100dvh-4rem)] overflow-y-auto border-t border-white/10 px-4 pb-6 pt-2 xl:hidden" aria-label="Navigation mobile">
+        <nav
+          id="mobile-nav"
+          className="fixed inset-x-0 bottom-0 top-16 z-40 overflow-y-auto overscroll-contain border-t border-white/10 bg-navy-950 px-4 pb-[max(1.5rem,env(safe-area-inset-bottom))] pt-2 lg:top-20 xl:hidden"
+          aria-label="Navigation mobile"
+        >
           {[{ href: "/", label: "Accueil" }, ...NAV, { href: "/contact", label: "Contact" }, { href: LINKS.espaceEtudiant, label: "Espace étudiant" }].map((item) => (
             <Link
               key={item.href}
               href={item.href}
               onClick={() => setOpen(false)}
-              className="block border-b border-white/5 py-3 text-base text-white/85"
+              aria-current={isActive(item.href) && item.href !== "/" ? "page" : undefined}
+              className={`block border-b border-white/5 py-3.5 text-lg ${isActive(item.href) && item.href !== "/" ? "text-cyan-accent" : "text-white/85"}`}
             >
               {item.label}
             </Link>
@@ -94,6 +114,6 @@ export function Header() {
           </Link>
         </nav>
       )}
-    </header>
+    </>
   );
 }

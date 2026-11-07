@@ -76,7 +76,7 @@ export default function EntrainementPage() {
       {/* COURS INDIVIDUEL */}
       <section id="individuel" className="scroll-mt-24 py-20 lg:py-28">
         <Container>
-          <div className="grid gap-14 lg:grid-cols-[1.1fr_1fr]">
+          <div className="grid grid-cols-1 gap-14 lg:grid-cols-[1.1fr_1fr]">
             <div>
               <SectionTitle
                 eyebrow="Individuel"
@@ -123,10 +123,11 @@ export default function EntrainementPage() {
                   {packs.map((p) => (
                     <div
                       key={p.name}
-                      className={`flex flex-wrap items-center justify-between gap-3 rounded-2xl border p-5 ${
+                      className={`rounded-2xl border p-5 ${
                         p.featured ? "border-brand-700 bg-brand-100/60" : "border-navy-900/10"
                       }`}
                     >
+                      <div className="flex items-start justify-between gap-4">
                       <div>
                         <p className="font-semibold text-navy-900">
                           {p.name}
@@ -138,10 +139,9 @@ export default function EntrainementPage() {
                         </p>
                         <p className="text-sm text-muted">{p.unit}</p>
                       </div>
-                      <div className="flex items-center gap-4">
-                        <p className="font-serif text-2xl text-navy-900">{p.price}</p>
-                        <BuyButton productId={p.id} label="Payer" variant={p.featured ? "dark" : "outline"} className="w-28" />
+                        <p className="whitespace-nowrap font-serif text-2xl text-navy-900">{p.price}</p>
                       </div>
+                      <BuyButton productId={p.id} label={`Payer ${p.price}`} variant={p.featured ? "dark" : "outline"} className="mt-4" />
                     </div>
                   ))}
                 </div>
@@ -157,7 +157,7 @@ export default function EntrainementPage() {
 
       {/* STAGE */}
       <section id="stage" className="scroll-mt-24 bg-navy-900 py-20 text-white lg:py-28">
-        <Container className="grid gap-14 lg:grid-cols-2">
+        <Container className="grid grid-cols-1 gap-14 lg:grid-cols-2">
           <div>
             <SectionTitle
               light
@@ -169,7 +169,7 @@ export default function EntrainementPage() {
               <Button href={mailto("Devis entraînement individuel")}>Demander un devis</Button>
             </div>
           </div>
-          <ul className="grid gap-3 sm:grid-cols-2">
+          <ul className="grid grid-cols-1 gap-3 sm:grid-cols-2">
             {stageAreas.map((a) => (
               <li key={a} className="flex items-start gap-3 rounded-xl border border-white/10 bg-white/5 p-4 text-white/85">
                 <Check className="mt-0.5 text-cyan-accent" />
@@ -183,7 +183,7 @@ export default function EntrainementPage() {
       {/* SEMINAIRES */}
       <section id="seminaires" className="scroll-mt-24 py-20 lg:py-28">
         <Container>
-          <div className="grid items-end gap-10 lg:grid-cols-[1.4fr_1fr]">
+          <div className="grid grid-cols-1 items-end gap-10 lg:grid-cols-[1.4fr_1fr]">
             <SectionTitle
               eyebrow="Collectif"
               title="Séminaires"
@@ -197,7 +197,7 @@ export default function EntrainementPage() {
               className="w-full max-w-sm rounded-2xl object-cover shadow-lg lg:ml-auto"
             />
           </div>
-          <div className="mt-12 grid gap-5 md:grid-cols-2">
+          <div className="mt-12 grid grid-cols-1 gap-5 md:grid-cols-2">
             {seminars.map((s) => (
               <article key={s.title} className="rounded-2xl border border-navy-900/10 bg-white p-7">
                 <h3 className="font-serif text-xl text-navy-900">{s.title}</h3>
@@ -205,7 +205,7 @@ export default function EntrainementPage() {
               </article>
             ))}
           </div>
-          <div className="mt-8 grid gap-5 rounded-2xl bg-cream-200 p-7 sm:grid-cols-3">
+          <div className="mt-8 grid grid-cols-1 gap-5 rounded-2xl bg-cream-200 p-7 sm:grid-cols-3">
             <div>
               <p className="text-sm font-semibold text-navy-900">Horaires</p>
               <p className="mt-1 text-sm text-muted">
@@ -239,7 +239,7 @@ export default function EntrainementPage() {
       {/* COACHING */}
       <section id="coaching" className="scroll-mt-24 bg-hero relative overflow-hidden py-20 text-white lg:py-28">
         <div className="grid-pattern absolute inset-0" aria-hidden />
-        <Container className="relative grid gap-14 lg:grid-cols-[1.3fr_1fr]">
+        <Container className="relative grid grid-cols-1 gap-14 lg:grid-cols-[1.3fr_1fr]">
           <div>
             <Eyebrow light>Coaching</Eyebrow>
             <h2 className="mt-3 font-serif text-3xl leading-tight sm:text-4xl">

@@ -67,7 +67,7 @@ export default function FormationPage() {
       </PageHero>
 
       <section className="py-20 lg:py-28">
-        <Container className="grid gap-14 lg:grid-cols-[1.2fr_1fr]">
+        <Container className="grid grid-cols-1 gap-14 lg:grid-cols-[1.2fr_1fr]">
           <div>
             <SectionTitle
               eyebrow="Pour les clubs"
@@ -111,7 +111,7 @@ export default function FormationPage() {
       <section className="bg-navy-900 py-20 text-white lg:py-28">
         <Container>
           <SectionTitle light eyebrow="Stages agréés FFE" title="Les diplômes fédéraux" intro="Droits d'inscription : prix conseillés par la FFE." />
-          <div className="mt-12 grid gap-5 md:grid-cols-2">
+          <div className="mt-12 grid grid-cols-1 gap-5 md:grid-cols-2">
             {diplomas.map((d) => (
               <article key={d.code} className="flex flex-col rounded-3xl border border-white/10 bg-white/5 p-7">
                 <p className="text-xs font-semibold uppercase tracking-wider text-cyan-accent">{d.family}</p>
@@ -128,7 +128,7 @@ export default function FormationPage() {
                     <dd className="text-white/85">{d.fee}</dd>
                   </div>
                 </dl>
-                <a href={d.pdf} target="_blank" rel="noopener noreferrer" className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-cyan-accent hover:underline">
+                <a href={d.pdf} target="_blank" rel="noopener noreferrer" className="mt-4 inline-flex min-h-11 items-center gap-2 text-sm font-semibold text-cyan-accent hover:underline">
                   Programme officiel (PDF FFE) →
                 </a>
               </article>
@@ -151,7 +151,7 @@ export default function FormationPage() {
             title="Calendrier et dossiers d'inscription"
             intro="Le calendrier des prochaines sessions et les dossiers d'inscription seront publiés ici prochainement. En attendant, contactez-nous pour connaître les dates."
           />
-          <div className="mt-10 grid gap-5 md:grid-cols-3">
+          <div className="mt-10 grid grid-cols-1 gap-5 md:grid-cols-3">
             <Placeholder label="Calendrier des sessions" className="aspect-[4/3]" />
             <Placeholder label="Dossier d'inscription (PDF)" className="aspect-[4/3]" />
             <Placeholder label="Grille des interventions (PDF)" className="aspect-[4/3]" />

@@ -18,9 +18,9 @@ function Row({ name, detail, price, productId, contact }: { name: string; detail
         <p className="font-semibold text-navy-900">{name}</p>
         {detail && <p className="text-sm text-muted">{detail}</p>}
       </div>
-      <div className="flex items-center gap-4">
-        <p className="w-20 text-right font-serif text-xl text-navy-900">{price}</p>
-        <div className="w-44">
+      <div className="flex items-center justify-between gap-4 sm:justify-end">
+        <p className="font-serif text-xl text-navy-900 sm:w-20 sm:text-right">{price}</p>
+        <div className="w-40 sm:w-44">
           {productId ? (
             <BuyButton productId={productId} label="Payer" />
           ) : (

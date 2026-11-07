@@ -6,7 +6,7 @@ import { CONTACT_SUBJECTS, LEVELS } from "@/lib/contact";
 type Status = "idle" | "sending" | "sent" | "error";
 
 const field =
-  "mt-1.5 block w-full rounded-xl border border-navy-900/15 bg-white px-4 py-3 text-ink outline-none transition placeholder:text-muted/60 focus:border-brand-700 focus:ring-4 focus:ring-brand-700/10";
+  "mt-1.5 block w-full rounded-xl border border-navy-900/15 bg-white px-4 py-3 text-base text-ink outline-none transition placeholder:text-muted/60 focus:border-brand-700 focus:ring-4 focus:ring-brand-700/10";
 
 export function ContactForm({ defaultSubject }: { defaultSubject?: string }) {
   const [status, setStatus] = useState<Status>("idle");
@@ -61,7 +61,7 @@ export function ContactForm({ defaultSubject }: { defaultSubject?: string }) {
     ) : null;
 
   return (
-    <form onSubmit={onSubmit} noValidate className="relative grid gap-5 sm:grid-cols-2">
+    <form onSubmit={onSubmit} noValidate className="relative grid grid-cols-1 gap-5 sm:grid-cols-2">
       <label className="block text-sm font-medium text-navy-900">
         Nom et prénom *
         <input name="name" required autoComplete="name" className={field} aria-invalid={!!errors.name} aria-describedby="name-error" />
@@ -124,7 +124,7 @@ export function ContactForm({ defaultSubject }: { defaultSubject?: string }) {
         <button
           type="submit"
           disabled={status === "sending"}
-          className="inline-flex items-center justify-center rounded-full bg-navy-900 px-7 py-3 text-sm font-semibold text-white transition hover:bg-brand-700 disabled:opacity-60"
+          className="inline-flex min-h-11 items-center justify-center rounded-full bg-navy-900 px-7 py-3 max-sm:w-full text-sm font-semibold text-white transition hover:bg-brand-700 disabled:opacity-60"
         >
           {status === "sending" ? "Envoi…" : "Envoyer le message"}
         </button>

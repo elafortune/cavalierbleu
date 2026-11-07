@@ -95,7 +95,7 @@ export function ModuleGuide() {
       {step === "elo" && (
         <div>
           <h2 className="font-serif text-2xl text-navy-900 sm:text-3xl">Votre classement Elo se situe…</h2>
-          <div className="mt-6 grid gap-3 sm:grid-cols-2">
+          <div className="mt-6 grid grid-cols-1 gap-3 sm:grid-cols-2">
             {ELO_RANGES.map(([label, id]) => (
               <button
                 key={label}
@@ -115,7 +115,7 @@ export function ModuleGuide() {
       {step === "experience" && (
         <div>
           <h2 className="font-serif text-2xl text-navy-900 sm:text-3xl">Depuis combien de temps jouez-vous ?</h2>
-          <div className="mt-6 grid gap-3 sm:grid-cols-2">
+          <div className="mt-6 grid grid-cols-1 gap-3 sm:grid-cols-2">
             {DURATION.map(([label, pts]) => (
               <button
                 key={label}

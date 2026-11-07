@@ -45,14 +45,14 @@ export default function PlanPage() {
     <>
       <PageHero eyebrow="Plan du site" title="Toutes les pages du site" />
       <section className="py-20">
-        <Container className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
+        <Container className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4">
           {groups.map((g) => (
             <div key={g.title}>
               <h2 className="font-serif text-xl text-navy-900">{g.title}</h2>
               <ul className="mt-4 space-y-2">
                 {g.links.map(([href, label]) => (
                   <li key={href}>
-                    <Link href={href} className="text-muted hover:text-brand-700">
+                    <Link href={href} className="inline-block py-1.5 text-muted hover:text-brand-700">
                       {label}
                     </Link>
                   </li>

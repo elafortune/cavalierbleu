@@ -64,7 +64,7 @@ export default function DarkoPage() {
       </PageHero>
 
       <section className="py-20 lg:py-28">
-        <Container className="grid gap-14 lg:grid-cols-[1fr_1.2fr]">
+        <Container className="grid grid-cols-1 gap-14 lg:grid-cols-[1fr_1.2fr]">
           <div className="space-y-6">
             <div className="rounded-3xl border border-navy-900/10 bg-white p-3">
               <Image
@@ -95,7 +95,7 @@ export default function DarkoPage() {
               title="Compétiteur, entraîneur, pédagogue"
               intro="Pilier de l'Institut depuis sa fondation, Darko allie enthousiasme et rigueur professionnelle. Il enseigne les échecs depuis l'âge de 17 ans, en Croatie comme en France."
             />
-            <dl className="mt-10 grid gap-4 sm:grid-cols-2">
+            <dl className="mt-10 grid grid-cols-1 gap-4 sm:grid-cols-2">
               {titles.map((t) => (
                 <div key={t.label} className="rounded-2xl border border-navy-900/10 bg-white p-5">
                   <dt className="font-semibold text-navy-900">{t.label}</dt>
@@ -132,7 +132,7 @@ export default function DarkoPage() {
       </section>
 
       <section className="py-20">
-        <Container className="grid items-center gap-10 rounded-3xl bg-navy-900 p-8 text-white sm:p-12 lg:grid-cols-[auto_1fr_auto]">
+        <Container className="grid grid-cols-1 items-center gap-10 rounded-3xl bg-navy-900 p-8 text-white sm:p-12 lg:grid-cols-[auto_1fr_auto]">
           <a href={LINKS.bookPsychologie} target="_blank" rel="noopener noreferrer">
             <Image src="/images/book1.jpg" alt="Psychologie du joueur d'échecs" width={120} height={150} className="rounded shadow-xl" />
           </a>

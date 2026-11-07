@@ -36,7 +36,7 @@ const offers = [
   {
     title: "Modules d'enseignement à distance",
     text: "9 modules en 3 cycles, du débutant à l'objectif Maître International, avec suivi personnalisé.",
-    price: "dès 129 €",
+    price: "dès 127 €",
     href: LINKS.modules,
   },
   {
@@ -69,7 +69,7 @@ export default function Home() {
       {/* HERO */}
       <section className="bg-hero relative overflow-hidden text-white">
         <div className="grid-pattern absolute inset-0" aria-hidden />
-        <Container className="relative grid items-center gap-12 py-16 lg:grid-cols-[1.05fr_1fr] lg:gap-16 lg:py-24">
+        <Container className="relative grid grid-cols-1 items-center gap-10 py-10 sm:py-16 lg:grid-cols-[1.05fr_1fr] lg:gap-16 lg:py-24">
           <div>
             <Eyebrow light>Institut Le Cavalier Bleu · depuis 1995</Eyebrow>
             <h1 className="mt-5 font-serif text-4xl leading-[1.08] sm:text-5xl lg:text-[3.6rem]">
@@ -86,7 +86,7 @@ export default function Home() {
                 Découvrir les formules
               </Button>
             </div>
-            <ul className="mt-10 grid max-w-lg gap-3 text-sm text-white/80 sm:grid-cols-2">
+            <ul className="mt-10 grid grid-cols-1 max-w-lg gap-3 text-sm text-white/80 sm:grid-cols-2">
               {["Tous niveaux, du débutant au compétiteur", "Cours en direct depuis chez vous", "Méthode éprouvée depuis 30 ans", "Suivi individuel personnalisé"].map((t) => (
                 <li key={t} className="flex items-start gap-2">
                   <Check className="mt-0.5 text-cyan-accent" />
@@ -95,7 +95,7 @@ export default function Home() {
               ))}
             </ul>
           </div>
-          <div className="mx-auto w-full max-w-[520px]">
+          <div className="mx-auto w-full max-w-[520px] max-sm:-mx-1 max-sm:w-[calc(100%+0.5rem)]">
             <ChessPlayground />
           </div>
         </Container>
@@ -121,7 +121,7 @@ export default function Home() {
             title="Un parcours pour chaque joueur"
             intro="Du premier coup à la norme de Maître, l'Institut couvre tous les besoins de formation et d'enseignement des échecs — à distance comme en présentiel."
           />
-          <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-12 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {offers.map((o) => (
               <Link
                 key={o.title}
@@ -133,7 +133,7 @@ export default function Home() {
                     {o.tag}
                   </span>
                 )}
-                <h3 className="pr-24 font-serif text-xl text-navy-900">{o.title}</h3>
+                <h3 className={`font-serif text-xl text-navy-900 ${o.tag ? "pr-28" : ""}`}>{o.title}</h3>
                 <p className="mt-3 flex-1 leading-relaxed text-muted">{o.text}</p>
                 <div className="mt-6 flex items-center justify-between border-t border-navy-900/10 pt-4">
                   <span className="text-sm font-semibold text-navy-900">{o.price}</span>
@@ -153,7 +153,7 @@ export default function Home() {
 
       {/* DARKO */}
       <section className="bg-navy-900 py-20 text-white lg:py-28">
-        <Container className="grid items-center gap-14 lg:grid-cols-2">
+        <Container className="grid grid-cols-1 items-center gap-14 lg:grid-cols-2">
           <div className="relative">
             <div className="absolute -inset-4 rounded-3xl bg-gradient-to-br from-brand-700/40 to-cyan-accent/10 blur-2xl" aria-hidden />
             <div className="relative overflow-hidden rounded-3xl bg-white p-3">
@@ -207,12 +207,12 @@ export default function Home() {
 
       {/* PROGRAMME STRATEGE */}
       <section className="py-20 lg:py-28">
-        <Container className="grid items-center gap-14 lg:grid-cols-[1fr_1.1fr]">
+        <Container className="grid grid-cols-1 items-center gap-14 lg:grid-cols-[1fr_1.1fr]">
           <a
             href={LINKS.atelierStratege}
             target="_blank"
             rel="noopener noreferrer"
-            className="group relative mx-auto block max-w-sm"
+            className="group relative mx-auto block max-w-[260px] sm:max-w-sm"
           >
             <Image
               src="/images/Devenez_Stratege_v1.jpg"
@@ -228,7 +228,7 @@ export default function Home() {
               title="Devenez un stratège accompli aux échecs"
               intro="Programme de coaching collectif « Déclic stratégique » : 7 mois, 4 séances par mois, et un coffret numérique des 28 séances enregistrées, accessible à vie."
             />
-            <ol className="mt-8 grid gap-3 sm:grid-cols-2">
+            <ol className="mt-8 grid grid-cols-1 gap-3 sm:grid-cols-2">
               {strategeSteps.map((s, i) => (
                 <li key={s} className="flex items-start gap-3 rounded-xl border border-navy-900/10 bg-white p-4">
                   <span className="flex h-7 w-7 flex-none items-center justify-center rounded-full bg-brand-700 text-xs font-bold text-white">
@@ -249,7 +249,7 @@ export default function Home() {
 
       {/* LIVRE */}
       <section className="bg-cream-200 py-20 lg:py-28">
-        <Container className="grid items-center gap-14 lg:grid-cols-[1.1fr_1fr]">
+        <Container className="grid grid-cols-1 items-center gap-14 lg:grid-cols-[1.1fr_1fr]">
           <div>
             <SectionTitle
               eyebrow="Actualité de l'Institut · Science et performance"
@@ -271,7 +271,7 @@ export default function Home() {
               </Button>
             </div>
           </div>
-          <a href={LINKS.bookPsychologie} target="_blank" rel="noopener noreferrer" className="group mx-auto block max-w-xs">
+          <a href={LINKS.bookPsychologie} target="_blank" rel="noopener noreferrer" className="group mx-auto block max-w-[220px] sm:max-w-xs">
             <Image
               src="/images/300.jpg"
               alt="Couverture du livre Psychologie du joueur d'échecs, Science et performance"
@@ -285,7 +285,7 @@ export default function Home() {
 
       {/* PEDAGOGIE */}
       <section className="py-20 lg:py-28">
-        <Container className="grid items-center gap-14 lg:grid-cols-2">
+        <Container className="grid grid-cols-1 items-center gap-14 lg:grid-cols-2">
           <a href={LINKS.outils} className="group block overflow-hidden rounded-2xl border border-navy-900/10 bg-white p-4">
             <Image
               src="/images/FP5.jpg"

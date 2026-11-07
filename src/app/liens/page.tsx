@@ -51,7 +51,7 @@ export default function LiensPage() {
     <>
       <PageHero eyebrow="Liens" title="Liens échecs" intro="Notre sélection de sites pour suivre l'actualité, jouer et progresser." />
       <section className="py-20">
-        <Container className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <Container className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
           {groups.map((g) => (
             <div key={g.title} className="rounded-3xl border border-navy-900/10 bg-white p-7">
               <h2 className="font-serif text-xl text-navy-900">{g.title}</h2>

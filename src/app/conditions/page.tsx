@@ -64,7 +64,7 @@ export default function ConditionsPage() {
               <h2 className="font-serif text-2xl text-navy-900">{s.title}</h2>
               <dl className="mt-5 space-y-4">
                 {s.articles.map(([n, t]) => (
-                  <div key={n} className="grid gap-1 sm:grid-cols-[110px_1fr]">
+                  <div key={n} className="grid grid-cols-1 gap-1 sm:grid-cols-[110px_1fr]">
                     <dt className="font-semibold text-brand-700">{n}</dt>
                     <dd className="leading-relaxed text-ink">{t}</dd>
                   </div>

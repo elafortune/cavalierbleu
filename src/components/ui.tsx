@@ -62,7 +62,7 @@ export function Button({ href, children, variant = "primary", external, classNam
     dark: "bg-navy-900 text-white hover:bg-brand-700",
     ghost: "border border-navy-900/15 text-navy-900 hover:border-navy-900/40 hover:bg-white",
   }[variant];
-  const cls = `inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-sm font-semibold transition ${styles} ${className}`;
+  const cls = `inline-flex min-h-11 items-center justify-center gap-2 rounded-full px-6 py-3 text-center text-sm font-semibold transition max-sm:w-full ${styles} ${className}`;
   const isExternal = external ?? /^(https?:|mailto:|tel:)/.test(href);
   if (isExternal) {
     const newTab = href.startsWith("http");
@@ -95,7 +95,7 @@ export function PageHero({ eyebrow, title, intro, children }: { eyebrow: string;
   return (
     <section className="bg-hero relative overflow-hidden text-white">
       <div className="grid-pattern absolute inset-0" aria-hidden />
-      <Container className="relative py-20 lg:py-28">
+      <Container className="relative py-14 sm:py-20 lg:py-28">
         <Eyebrow light>{eyebrow}</Eyebrow>
         <h1 className="mt-4 max-w-4xl font-serif text-4xl leading-[1.1] sm:text-5xl lg:text-6xl">{title}</h1>
         {intro && <p className="mt-6 max-w-2xl text-lg leading-relaxed text-white/75">{intro}</p>}

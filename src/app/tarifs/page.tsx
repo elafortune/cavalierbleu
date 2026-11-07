@@ -85,7 +85,7 @@ export default function TarifsPage() {
         </div>
       </PageHero>
       <section className="py-20">
-        <Container className="grid gap-8 lg:grid-cols-2">
+        <Container className="grid grid-cols-1 gap-8 lg:grid-cols-2">
           {groups.map((g) => (
             <div key={g.title} className="rounded-3xl border border-navy-900/10 bg-white p-6 sm:p-8">
               <h2 className="font-serif text-2xl text-navy-900">{g.title}</h2>

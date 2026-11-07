@@ -17,7 +17,7 @@ export default function InstitutPage() {
         intro="Centre international de formation et d'enseignement des échecs, fondé en 1995 par le Grand-Maître International Darko Anic."
       />
       <section className="py-20 lg:py-28">
-        <Container className="grid gap-14 lg:grid-cols-[1.3fr_1fr]">
+        <Container className="grid grid-cols-1 gap-14 lg:grid-cols-[1.3fr_1fr]">
           <div className="space-y-5 text-lg leading-relaxed text-ink">
             <p>
               Partant du constat qu&apos;il n&apos;existait en France aucune école d&apos;enseignement du jeu d&apos;échecs à

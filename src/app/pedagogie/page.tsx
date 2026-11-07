@@ -51,7 +51,7 @@ export default function PedagogiePage() {
       />
 
       <section className="py-20 lg:py-28">
-        <Container className="grid items-center gap-14 lg:grid-cols-2">
+        <Container className="grid grid-cols-1 items-center gap-14 lg:grid-cols-2">
           <div className="rounded-3xl border border-navy-900/10 bg-white p-4">
             <Image src="/images/FP5.jpg" alt="Couvertures des fiches pédagogiques niveaux 1 et 2" width={904} height={637} />
           </div>
@@ -79,7 +79,7 @@ export default function PedagogiePage() {
       <section className="bg-cream-200 py-20">
         <Container>
           <SectionTitle eyebrow="L'essentiel" title="Ce que contiennent les fiches" />
-          <div className="mt-10 grid gap-5 md:grid-cols-3">
+          <div className="mt-10 grid grid-cols-1 gap-5 md:grid-cols-3">
             {[
               ["Un programme progressif et flexible", "Pour organiser vos cours toute l'année scolaire, à raison d'une séance hebdomadaire."],
               ["Une panoplie d'exercices choisis", "Harmoniser les connaissances, varier la difficulté, stimuler les plus rapides et aider ceux qui sont en retard, maintenir la cohésion du groupe."],
@@ -111,7 +111,7 @@ export default function PedagogiePage() {
       <section className="py-20 lg:py-28">
         <Container>
           <SectionTitle eyebrow="Aperçu" title="Les programmes d'enseignement" />
-          <div className="mt-10 grid gap-8 lg:grid-cols-2">
+          <div className="mt-10 grid grid-cols-1 gap-8 lg:grid-cols-2">
             {program.map((lvl) => (
               <div key={lvl.level} className="rounded-3xl border border-navy-900/10 bg-white p-7">
                 <h3 className="font-serif text-2xl text-navy-900">{lvl.level}</h3>
@@ -119,7 +119,7 @@ export default function PedagogiePage() {
                   {lvl.parts.map(([title, items]) => (
                     <div key={title}>
                       <p className="text-sm font-semibold text-brand-700">{title}</p>
-                      <ul className="mt-2 grid gap-x-4 gap-y-1 text-sm text-muted sm:grid-cols-2">
+                      <ul className="mt-2 grid grid-cols-1 gap-x-4 gap-y-1 text-sm text-muted sm:grid-cols-2">
                         {items.map((i) => (
                           <li key={i}>· {i}</li>
                         ))}
@@ -136,7 +136,7 @@ export default function PedagogiePage() {
       <section id="commander" className="scroll-mt-24 bg-navy-900 py-20 text-white">
         <Container>
           <SectionTitle light eyebrow="Commander" title="Prix des fiches pédagogiques" intro="Paiement sécurisé par carte. Livraison à l'adresse de votre choix." />
-          <div className="mt-10 grid gap-5 md:grid-cols-3">
+          <div className="mt-10 grid grid-cols-1 gap-5 md:grid-cols-3">
             {offers.map((o) => {
               const product = getProduct(o.id)!;
               return (

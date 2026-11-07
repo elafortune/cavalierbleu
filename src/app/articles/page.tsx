@@ -19,7 +19,7 @@ export default function ArticlesPage() {
         intro="Les structures de pions racontées par le GMI Darko Anic : comprendre les plans typiques pour mieux jouer toutes les positions qui en découlent."
       />
       <section className="py-20">
-        <Container className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <Container className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
           {ARTICLES.map((a) => (
             <Link
               key={a.slug}

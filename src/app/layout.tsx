@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Cinzel, Inter, Playfair_Display } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/Header";
@@ -7,6 +7,10 @@ import { Footer } from "@/components/Footer";
 const inter = Inter({ variable: "--font-inter", subsets: ["latin"] });
 const playfair = Playfair_Display({ variable: "--font-playfair", subsets: ["latin"] });
 const cinzel = Cinzel({ variable: "--font-cinzel", subsets: ["latin"], weight: ["500", "700"] });
+
+export const viewport: Viewport = {
+  themeColor: "#081627",
+};
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.cavalierbleu.com"),

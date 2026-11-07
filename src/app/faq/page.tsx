@@ -111,14 +111,14 @@ export default function FaqPage() {
               <h2 className="font-serif text-2xl text-navy-900">{g.title}</h2>
               <div className="mt-6 divide-y divide-navy-900/10 rounded-3xl border border-navy-900/10 bg-white">
                 {g.items.map((item) => (
-                  <details key={item.q} className="group px-6 py-5 [&_summary::-webkit-details-marker]:hidden">
-                    <summary className="flex cursor-pointer list-none items-center justify-between gap-4 font-semibold text-navy-900">
+                  <details key={item.q} className="group px-5 sm:px-6 [&_summary::-webkit-details-marker]:hidden">
+                    <summary className="flex min-h-11 cursor-pointer list-none items-center justify-between gap-4 py-5 font-semibold text-navy-900">
                       {item.q}
                       <span className="flex h-7 w-7 flex-none items-center justify-center rounded-full bg-brand-100 text-brand-700 transition group-open:rotate-45" aria-hidden>
                         +
                       </span>
                     </summary>
-                    <div className="mt-3 leading-relaxed text-muted">{item.a}</div>
+                    <div className="-mt-1 pb-5 leading-relaxed text-muted">{item.a}</div>
                   </details>
                 ))}
               </div>

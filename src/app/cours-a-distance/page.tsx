@@ -66,7 +66,7 @@ export default function CoursADistancePage() {
       </PageHero>
 
       <section className="py-20">
-        <Container className="grid gap-5 md:grid-cols-2 lg:grid-cols-4">
+        <Container className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4">
           {infos.map((i) => (
             <div key={i.title} className="rounded-3xl border border-navy-900/10 bg-white p-6">
               <h2 className="font-serif text-xl text-navy-900">{i.title}</h2>
@@ -81,7 +81,7 @@ export default function CoursADistancePage() {
           {CYCLES.map((cycle, ci) => (
             <div key={cycle.name} className={ci ? "mt-20" : ""}>
               <SectionTitle eyebrow={`Cycle ${ci + 1}`} title={`Cycle « ${cycle.name} »`} intro={cycle.intro} />
-              <div className="mt-10 grid gap-5 lg:grid-cols-3">
+              <div className="mt-10 grid grid-cols-1 gap-5 lg:grid-cols-3">
                 {MODULES.filter((m) => m.cycle === cycle.name).map((m) => (
                   <article
                     key={m.id}
@@ -121,7 +121,7 @@ export default function CoursADistancePage() {
       </section>
 
       <section className="bg-navy-900 py-20 text-white">
-        <Container className="grid items-center gap-12 lg:grid-cols-[1.2fr_1fr]">
+        <Container className="grid grid-cols-1 items-center gap-12 lg:grid-cols-[1.2fr_1fr]">
           <div>
             <SectionTitle
               light

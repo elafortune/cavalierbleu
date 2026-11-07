@@ -60,7 +60,7 @@ export default function ElanPage() {
       <section className="py-20">
         <Container>
           <SectionTitle eyebrow="Modules" title="Offres sur les modules" />
-          <div className="mt-10 grid gap-6 lg:grid-cols-2">
+          <div className="mt-10 grid grid-cols-1 gap-6 lg:grid-cols-2">
             {moduleOffers.map((o) => (
               <div key={o.title} className="flex flex-col rounded-3xl border border-navy-900/10 bg-white p-7 sm:p-8">
                 <span className="w-fit rounded-full bg-brand-100 px-3 py-1 text-xs font-semibold text-brand-700">{o.badge}</span>
@@ -92,7 +92,7 @@ export default function ElanPage() {
       <section className="bg-navy-900 py-20 text-white">
         <Container>
           <SectionTitle light eyebrow="Formations" title="Formations thématiques en ligne" />
-          <div className="mt-10 grid gap-6 lg:grid-cols-3">
+          <div className="mt-10 grid grid-cols-1 gap-6 lg:grid-cols-3">
             {trainings.map((t) => {
               const p = getProduct(t.id)!;
               return (

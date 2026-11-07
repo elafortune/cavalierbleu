@@ -18,7 +18,7 @@ export default function ContactPage() {
         intro="Une question, un cours d'essai, un projet pour votre club ? Écrivez-nous : nous répondons personnellement, en général sous 48 heures."
       />
       <section className="py-20">
-        <Container className="grid gap-10 lg:grid-cols-[1.5fr_1fr]">
+        <Container className="grid grid-cols-1 gap-10 lg:grid-cols-[1.5fr_1fr]">
           <div className="rounded-3xl border border-navy-900/10 bg-white p-6 sm:p-10">
             <h2 className="font-serif text-2xl text-navy-900">Envoyez-nous un message</h2>
             <div className="mt-8">
