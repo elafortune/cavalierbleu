@@ -6,10 +6,23 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "tsx scripts/migrate.ts",
+    "db:seed": "tsx scripts/seed.ts",
+    "db:setup": "tsx scripts/migrate.ts && tsx scripts/seed.ts",
+    "content:import": "tsx scripts/import.ts",
+    "dev:accounts": "tsx scripts/dev-accounts.ts"
   },
   "dependencies": {
+    "@electric-sql/pglite": "0.5.14",
+    "@neondatabase/serverless": "1.2.0",
+    "@vercel/blob": "2.8.2",
+    "better-auth": "1.7.17",
     "chess.js": "^1.4.0",
+    "chessops": "0.15.1",
+    "drizzle-orm": "0.45.4",
+    "mammoth": "1.13.0",
     "next": "16.4.5",
     "react": "19.3.0",
     "react-chessboard": "^5.12.1",
@@ -22,9 +35,11 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "drizzle-kit": "0.31.11",
     "eslint": "^9",
     "eslint-config-next": "16.4.5",
     "tailwindcss": "^4",
+    "tsx": "4.23.15",
     "typescript": "^5"
   }
 }

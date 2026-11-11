@@ -3,12 +3,25 @@
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
+import { Suspense, useEffect, useState } from "react";
 import { LINKS, NAV } from "@/lib/site";
 
+// Le chemin courant n'est connu qu'à l'exécution : la mise en évidence du lien actif arrive sous <Suspense>,
+// le reste de l'en-tête est rendu immédiatement (Cache Components).
 export function Header() {
+  return (
+    <Suspense fallback={<HeaderView pathname="" />}>
+      <HeaderWithPath />
+    </Suspense>
+  );
+}
+
+function HeaderWithPath() {
+  return <HeaderView pathname={usePathname()} />;
+}
+
+function HeaderView({ pathname }: { pathname: string }) {
   const [open, setOpen] = useState(false);
-  const pathname = usePathname();
   const isActive = (href: string) => pathname === href || pathname.startsWith(href + "/");
 
   // Menu mobile : bloque le défilement de la page et se ferme avec Échap.

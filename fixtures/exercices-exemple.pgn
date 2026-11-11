@@ -1,0 +1,109 @@
+[Event "EXEMPLE - contenu fictif"]
+[Exercise "0001"]
+[Consigne "Les Blancs jouent et matent en 1 coup."]
+[Themes "mat; ouverture; point f7"]
+[SetUp "1"]
+[FEN "r1bqkbnr/pppp1ppp/2n5/4p3/2B1P3/5Q2/PPPP1PPP/RNB1K1NR w KQkq - 4 4"]
+[Result "1-0"]
+
+{EXEMPLE : exercice de démonstration, remplacé par le contenu réel lors de l'import. [%csl Rf7]} 4. Qxf7# $1 1-0
+
+[Event "EXEMPLE - contenu fictif"]
+[Exercise "0002"]
+[Consigne "Les Blancs jouent et matent en 1 coup."]
+[Themes "mat; mat du couloir"]
+[SetUp "1"]
+[FEN "6k1/5ppp/8/8/8/8/5PPP/3R2K1 w - - 0 1"]
+[Result "1-0"]
+
+{EXEMPLE [%csl Gf7,Gg7,Gh7]} 1. Rd8# $1 (1. Rd7 $2 {laisse au Roi noir le temps de faire de l'air} 1... h6 $10) 1-0
+
+[Event "EXEMPLE - contenu fictif"]
+[Exercise "0253"]
+[Consigne "Les Blancs jouent et matent en 2 coups."]
+[Themes "mat; déviation; sacrifice de dame"]
+[SetUp "1"]
+[FEN "r1b2k1r/ppp1bppp/8/1B1Q4/5q2/2P5/PPP2PPP/R3R1K1 w - - 1 1"]
+[Result "1-0"]
+
+{EXEMPLE} 1. Qd8+ $1 Bxd8 2. Re8# 1-0
+
+[Event "EXEMPLE - contenu fictif"]
+[Exercise "0254"]
+[Consigne "Les Blancs jouent et matent en 1 coup."]
+[Themes "mat; mat à l'étouffée; cavalier"]
+[SetUp "1"]
+[FEN "6rk/6pp/8/6N1/8/8/8/6K1 w - - 0 1"]
+[Result "1-0"]
+
+{EXEMPLE} 1. Nf7# $1 (1. Nxh7 $2 Kxh7 $19) 1-0
+
+[Event "EXEMPLE - contenu fictif"]
+[Exercise "0553"]
+[Consigne "Trait aux Noirs. Comment obtenir la nulle ?"]
+[Themes "finale; roi et pion; opposition; cases clés"]
+[SetUp "1"]
+[FEN "5k2/8/8/8/5KP1/8/8/8 b - - 0 1"]
+[Result "1/2-1/2"]
+
+{EXEMPLE [%csl Gf6,Gg6,Gh6]} 1... Kg8 $1 (1... Kf7 $2 2. Kf5 $1 Kg7 3. Kg5 Kf7 4. Kh6 $1 $18) (1... Kg7 $2 2. Kg5 $1 Kf7 3. Kh6 $1 $18) 2. Kf5 (2. Kg5 Kg7 $10) 2... Kf7 3. Kg5 Kg7 $10 1/2-1/2
+
+[Event "EXEMPLE - contenu fictif"]
+[Exercise "0826"]
+[Consigne "Les Blancs jouent et matent en 1 coup."]
+[Themes "mat; tours"]
+[SetUp "1"]
+[FEN "k7/7R/8/8/8/8/8/K5R1 w - - 0 1"]
+[Result "1-0"]
+
+{EXEMPLE : le mat de l'escalier.} 1. Rg8# $1 1-0
+
+[Event "EXEMPLE - contenu fictif"]
+[Exercise "0827"]
+[Consigne "Trait aux Noirs. Comment obtenir la nulle ?"]
+[Themes "finale; roi et pion; opposition; cases clés"]
+[SetUp "1"]
+[FEN "5k2/8/8/8/5KP1/8/8/8 b - - 0 1"]
+[Result "1/2-1/2"]
+
+{EXEMPLE [%csl Gf6,Gg6,Gh6]} 1... Kg8 $1 (1... Kf7 $2 2. Kf5 $1 Kg7 3. Kg5 Kf7 4. Kh6 $1 $18) (1... Kg7 $2 2. Kg5 $1 Kf7 3. Kh6 $1 $18) 2. Kf5 (2. Kg5 Kg7 $10) 2... Kf7 3. Kg5 Kg7 $10 1/2-1/2
+
+[Event "EXEMPLE - contenu fictif"]
+[Exercise "0828"]
+[Consigne "Les Blancs jouent et matent en 2 coups."]
+[Themes "mat; déviation; sacrifice de dame"]
+[SetUp "1"]
+[FEN "r1b2k1r/ppp1bppp/8/1B1Q4/5q2/2P5/PPP2PPP/R3R1K1 w - - 1 1"]
+[Result "1-0"]
+
+{EXEMPLE} 1. Qd8+ $1 Bxd8 2. Re8# 1-0
+
+[Event "EXEMPLE - contenu fictif"]
+[Exercise "1205"]
+[Consigne "Les Blancs jouent et matent en 1 coup."]
+[Themes "mat; mat du couloir"]
+[SetUp "1"]
+[FEN "6k1/5ppp/8/8/8/8/5PPP/3R2K1 w - - 0 1"]
+[Result "1-0"]
+
+{EXEMPLE} 1. Rd8# $1 1-0
+
+[Event "EXEMPLE - contenu fictif"]
+[Exercise "1589"]
+[Consigne "Les Blancs jouent et matent en 1 coup."]
+[Themes "mat; mat à l'étouffée"]
+[SetUp "1"]
+[FEN "6rk/6pp/8/6N1/8/8/8/6K1 w - - 0 1"]
+[Result "1-0"]
+
+{EXEMPLE} 1. Nf7# $1 1-0
+
+[Event "EXEMPLE - contenu fictif"]
+[Exercise "1961"]
+[Consigne "Les Blancs jouent et matent en 2 coups."]
+[Themes "mat; déviation"]
+[SetUp "1"]
+[FEN "r1b2k1r/ppp1bppp/8/1B1Q4/5q2/2P5/PPP2PPP/R3R1K1 w - - 1 1"]
+[Result "1-0"]
+
+{EXEMPLE} 1. Qd8+ $1 Bxd8 2. Re8# 1-0

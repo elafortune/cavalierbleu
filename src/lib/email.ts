@@ -1,15 +1,14 @@
-import "server-only";
 
 // Envoi d'e-mails via l'API HTTP de Resend (https://resend.com) — aucune dépendance supplémentaire.
 // Variables d'environnement : RESEND_API_KEY, CONTACT_TO, CONTACT_FROM.
 
-type Mail = { subject: string; text: string; replyTo?: string };
+type Mail = { subject: string; text: string; replyTo?: string; /** Destinataire (par défaut : l'Institut, CONTACT_TO). */ to?: string };
 
 export const emailConfigured = () => Boolean(process.env.RESEND_API_KEY);
 
-export async function sendMail({ subject, text, replyTo }: Mail): Promise<{ ok: boolean; error?: string }> {
+export async function sendMail({ subject, text, replyTo, to: recipient }: Mail): Promise<{ ok: boolean; error?: string }> {
   const key = process.env.RESEND_API_KEY;
-  const to = process.env.CONTACT_TO || "desk@cavalierbleu.com";
+  const to = recipient || process.env.CONTACT_TO || "desk@cavalierbleu.com";
   const from = process.env.CONTACT_FROM || "Site Cavalier Bleu <onboarding@resend.dev>";
 
   if (!key) {

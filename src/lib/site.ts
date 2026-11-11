@@ -13,6 +13,8 @@ export const mailto = (subject?: string) =>
 
 /** Lien vers la future plateforme de cours (échiquier partagé, exercices, suivi). */
 export const PLATFORM_URL = process.env.NEXT_PUBLIC_PLATFORM_URL || "";
+/** Nouvel espace élève (/connexion) ouvert au public : NEXT_PUBLIC_MEMBER_AREA=1. Sinon, l'ancien espace reste la référence. */
+export const MEMBER_AREA_LIVE = process.env.NEXT_PUBLIC_MEMBER_AREA === "1";
 
 export const LINKS = {
   // Externes (inchangés par rapport à l'ancien site)

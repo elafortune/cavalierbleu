@@ -40,6 +40,8 @@ const legacyRedirects: [string, string][] = [
 
 const nextConfig: NextConfig = {
   cacheComponents: true,
+  // Base locale de développement (PGlite) : chargée telle quelle par Node (fichiers WASM), sans passer par le bundler.
+  serverExternalPackages: ["@electric-sql/pglite"],
   partialPrefetching: true,
   turbopack: {
     rules: {

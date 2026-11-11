@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Button, Check, Container, PageHero } from "@/components/ui";
-import { LINKS, PLATFORM_URL, mailto } from "@/lib/site";
+import { LINKS, MEMBER_AREA_LIVE, PLATFORM_URL, mailto } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Espace étudiant",
@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 };
 
 export default function EspaceEtudiantPage() {
-  const loginUrl = PLATFORM_URL || LINKS.legacyLogin;
+  const loginUrl = MEMBER_AREA_LIVE ? "/connexion" : PLATFORM_URL || LINKS.legacyLogin;
   return (
     <>
       <PageHero
